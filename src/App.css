@@ -1,4 +1,4 @@
-/* Estilos elegantes para EL RESEÑADOR - Paleta de Colores Específica */
+/* Estilos elegantes para EL RESEÑADOR - Nueva Paleta de Colores */
 
 /* Smooth scrolling para navegación */
 html {
@@ -9,32 +9,32 @@ html {
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
-  background-color: #0F0F0F;
-  color: #FFFFFF;
+  background-color: #16161a;
+  color: #fffffe;
 }
 
-/* Gradientes elegantes con la paleta específica */
+/* Gradientes elegantes con la nueva paleta */
 .gradient-elegant {
-  background: linear-gradient(135deg, #0F0F0F 0%, #1C1C1E 25%, #2C2C2E 50%, #1C1C1E 75%, #0F0F0F 100%);
+  background: linear-gradient(135deg, #16161a 0%, #1a1a1e 25%, #2a2a2e 50%, #1a1a1e 75%, #16161a 100%);
 }
 
 .gradient-hero {
-  background: linear-gradient(135deg, #0F0F0F 0%, #1C1C1E 25%, #2C2C2E 50%, #1C1C1E 75%, #0F0F0F 100%);
+  background: linear-gradient(135deg, #16161a 0%, #1a1a1e 25%, #2a2a2e 50%, #1a1a1e 75%, #16161a 100%);
 }
 
 .gradient-card {
-  background: linear-gradient(135deg, #1C1C1E 0%, #2C2C2E 50%, #1C1C1E 100%);
+  background: linear-gradient(135deg, #1a1a1e 0%, #2a2a2e 50%, #1a1a1e 100%);
 }
 
 .gradient-button {
-  background: linear-gradient(135deg, #2C2C2E 0%, #1C1C1E 100%);
+  background: linear-gradient(135deg, #7f5af0 0%, #6b4fd8 100%);
   transition: all 0.3s ease;
 }
 
 .gradient-button:hover {
-  background: linear-gradient(135deg, #4A4A4D 0%, #2C2C2E 100%);
+  background: linear-gradient(135deg, #6b4fd8 0%, #7f5af0 100%);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 12px rgba(127, 90, 240, 0.3);
 }
 
 /* Efectos hover elegantes */
@@ -47,26 +47,26 @@ body {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-/* Cards con efectos glassmorphism usando la paleta específica */
+/* Cards con efectos glassmorphism usando la nueva paleta */
 .glass-card {
-  background: rgba(28, 28, 30, 0.95);
+  background: rgba(26, 26, 30, 0.95);
   backdrop-filter: blur(10px);
-  border: 1px solid #3A3A3C;
+  border: 1px solid #72757e;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .glass-card:hover {
-  background: rgba(44, 44, 46, 0.98);
+  background: rgba(42, 42, 46, 0.98);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
   transform: translateY(-4px);
-  border-color: #4A4A4D;
+  border-color: #7f5af0;
 }
 
-/* Botones elegantes con la paleta específica */
+/* Botones elegantes con la nueva paleta */
 .btn-elegant {
-  background: linear-gradient(135deg, #2C2C2E 0%, #1C1C1E 100%);
+  background: linear-gradient(135deg, #7f5af0 0%, #6b4fd8 100%);
   border: none;
-  color: #FFFFFF;
+  color: #fffffe;
   padding: 12px 32px;
   border-radius: 50px;
   font-weight: 600;
@@ -82,7 +82,7 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 254, 0.2), transparent);
   transition: left 0.5s;
 }
 
@@ -92,20 +92,20 @@ body {
 
 .btn-elegant:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(135deg, #4A4A4D 0%, #2C2C2E 100%);
+  box-shadow: 0 4px 12px rgba(127, 90, 240, 0.4);
+  background: linear-gradient(135deg, #6b4fd8 0%, #7f5af0 100%);
 }
 
-/* Efectos de texto con la paleta específica */
+/* Efectos de texto con la nueva paleta */
 .text-gradient {
-  background: linear-gradient(135deg, #FFFFFF 0%, #D1D1D6 100%);
+  background: linear-gradient(135deg, #fffffe 0%, #94a1b2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .text-glow {
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 0 20px rgba(127, 90, 240, 0.5);
 }
 
 /* Animaciones sutiles */
@@ -137,7 +137,7 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
-/* Efectos de sombra elegantes con la paleta específica */
+/* Efectos de sombra elegantes con la nueva paleta */
 .shadow-elegant {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -146,10 +146,10 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Efectos de borde con la paleta específica */
+/* Efectos de borde con la nueva paleta */
 .border-gradient {
   border: 2px solid;
-  border-image: linear-gradient(135deg, #2C2C2E, #1C1C1E) 1;
+  border-image: linear-gradient(135deg, #7f5af0, #6b4fd8) 1;
 }
 
 /* Efectos de hover para navegación */
@@ -165,7 +165,7 @@ body {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background: linear-gradient(135deg, #FFFFFF, #D1D1D6);
+  background: linear-gradient(135deg, #7f5af0, #6b4fd8);
   transition: width 0.3s ease;
 }
 
@@ -173,26 +173,26 @@ body {
   width: 100%;
 }
 
-/* Efectos para estadísticas con la paleta específica */
+/* Efectos para estadísticas con la nueva paleta */
 .stats-elegant {
-  background: linear-gradient(135deg, #FFFFFF 0%, #D1D1D6 100%);
+  background: linear-gradient(135deg, #fffffe 0%, #94a1b2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
 }
 
-/* Efectos para iconos con la paleta específica */
+/* Efectos para iconos con la nueva paleta */
 .icon-elegant {
-  background: linear-gradient(135deg, #2C2C2E 0%, #1C1C1E 100%);
+  background: linear-gradient(135deg, #7f5af0 0%, #6b4fd8 100%);
   border-radius: 12px;
   transition: all 0.3s ease;
 }
 
 .icon-elegant:hover {
   transform: scale(1.1) rotate(5deg);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(135deg, #4A4A4D 0%, #2C2C2E 100%);
+  box-shadow: 0 4px 12px rgba(127, 90, 240, 0.3);
+  background: linear-gradient(135deg, #6b4fd8 0%, #7f5af0 100%);
 }
 
 /* Responsive improvements */
@@ -208,19 +208,19 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Efectos de hover para precios con la paleta específica */
+/* Efectos de hover para precios con la nueva paleta */
 .price-card-elegant {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border: 2px solid transparent;
-  background: linear-gradient(#1C1C1E, #1C1C1E) padding-box,
-              linear-gradient(135deg, #2C2C2E, #1C1C1E) border-box;
+  background: linear-gradient(#1a1a1e, #1a1a1e) padding-box,
+              linear-gradient(135deg, #7f5af0, #6b4fd8) border-box;
 }
 
 .price-card-elegant:hover {
   transform: translateY(-8px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(#2C2C2E, #2C2C2E) padding-box,
-              linear-gradient(135deg, #4A4A4D, #2C2C2E) border-box;
+  box-shadow: 0 6px 16px rgba(127, 90, 240, 0.2);
+  background: linear-gradient(#2a2a2e, #2a2a2e) padding-box,
+              linear-gradient(135deg, #6b4fd8, #7f5af0) border-box;
 }
 
 /* Efectos de texto con sombra */
@@ -231,53 +231,76 @@ body {
 /* Efectos de fondo con patrón sutil */
 .pattern-bg {
   background-image: 
-    radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+    radial-gradient(circle at 25% 25%, rgba(127, 90, 240, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(44, 182, 125, 0.05) 0%, transparent 50%);
 }
 
-/* Clases adicionales para la paleta específica */
+/* Clases adicionales para la nueva paleta específica */
 .bg-primary-dark {
-  background-color: #0F0F0F;
+  background-color: #16161a;
 }
 
 .bg-card-dark {
-  background-color: #1C1C1E;
+  background-color: #1a1a1e;
 }
 
 .bg-nav-dark {
-  background-color: #2C2C2E;
+  background-color: #2a2a2e;
 }
 
 .border-subtle {
-  border-color: #3A3A3C;
+  border-color: #72757e;
 }
 
-.hover-dark {
-  background-color: #4A4A4D;
+.hover-highlight {
+  background-color: #7f5af0;
 }
 
 .text-secondary {
-  color: #5C5C5E;
+  color: #94a1b2;
 }
 
-.text-placeholder {
-  color: #8E8E93;
+.text-tertiary {
+  color: #72757e;
+}
+
+.text-success {
+  color: #2cb67d;
 }
 
 .border-soft {
-  border-color: #D1D1D6;
+  border-color: #010101;
 }
 
 .bg-light {
-  background-color: #E5E5EA;
-}
-
-.bg-card-light {
-  background-color: #F2F2F7;
+  background-color: #fffffe;
 }
 
 .text-dark {
-  color: #000000;
+  color: #16161a;
+}
+
+.text-headline {
+  color: #fffffe;
+}
+
+.text-paragraph {
+  color: #94a1b2;
+}
+
+.btn-primary {
+  background-color: #7f5af0;
+  color: #fffffe;
+}
+
+.btn-secondary {
+  background-color: #72757e;
+  color: #fffffe;
+}
+
+.btn-success {
+  background-color: #2cb67d;
+  color: #fffffe;
 }
 
 /* Sombras específicas */
@@ -294,5 +317,23 @@ body {
 }
 
 .shadow-glow {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(127, 90, 240, 0.3);
+}
+
+/* Efectos de highlight */
+.highlight {
+  color: #7f5af0;
+}
+
+.highlight-bg {
+  background-color: #7f5af0;
+}
+
+/* Efectos de stroke */
+.stroke {
+  border-color: #010101;
+}
+
+.stroke-text {
+  color: #010101;
 }

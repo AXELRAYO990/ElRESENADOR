@@ -28,11 +28,11 @@ function App() {
       <section className="gradient-hero text-white py-20 pattern-bg">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-headline">
               Reseñas Verificadas
-              <span className="block text-secondary">que Transforman</span>
+              <span className="block highlight">que Transforman</span>
             </h1>
-            <p className="text-xl md:text-2xl text-secondary mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-paragraph mb-8 max-w-3xl mx-auto">
               Mejoramos la reputación y posicionamiento de tu negocio local con reseñas auténticas en Google
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -51,8 +51,8 @@ function App() {
       <section id="servicios" className="py-20 bg-primary-dark">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-4">Nuestros Servicios</h2>
-            <p className="text-xl text-secondary max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-headline mb-4">Nuestros Servicios</h2>
+            <p className="text-xl text-paragraph max-w-3xl mx-auto">
               Especialistas en reseñas verificadas para negocios locales que quieren destacar en Google
             </p>
           </div>
@@ -65,10 +65,10 @@ function App() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gradient mb-4">Reseñas Verificadas en Google</h3>
-              <p className="text-secondary mb-6">
+              <p className="text-paragraph mb-6">
                 Generamos reseñas auténticas y verificadas que mejoran tu reputación y posicionamiento en Google Maps.
               </p>
-              <ul className="text-secondary space-y-2">
+              <ul className="text-paragraph space-y-2">
                 <li>• Reseñas de usuarios reales</li>
                 <li>• Verificación completa en Google</li>
                 <li>• Mejora de calificación promedio</li>
@@ -82,10 +82,10 @@ function App() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gradient mb-4">Paquetes Mensuales</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-paragraph mb-6">
                 Mantenimiento continuo de tu reputación online con reseñas estratégicas y reportes mensuales.
               </p>
-              <ul className="text-gray-600 space-y-2">
+              <ul className="text-paragraph space-y-2">
                 <li>• Reseñas continuas</li>
                 <li>• Reportes mensuales</li>
                 <li>• Seguimiento de resultados</li>
@@ -99,10 +99,10 @@ function App() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gradient mb-4">Reseñas con Keywords</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-paragraph mb-6">
                 Reseñas estratégicas que incluyen palabras clave específicas para mejorar tu posicionamiento local.
               </p>
-              <ul className="text-gray-600 space-y-2">
+              <ul className="text-paragraph space-y-2">
                 <li>• Keywords específicas</li>
                 <li>• Nombres de productos/servicios</li>
                 <li>• Mejora de SEO local</li>
@@ -116,8 +116,8 @@ function App() {
       <section className="py-20 bg-card-dark">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Precios Transparentes</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-headline mb-4">Precios Transparentes</h2>
+            <p className="text-xl text-paragraph max-w-3xl mx-auto">
               Precios claros y sin sorpresas. Pagas solo por lo que necesitas
             </p>
           </div>
@@ -125,25 +125,25 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Reseña Individual</h3>
-                <div className="text-4xl font-bold text-black mb-2">4€</div>
-                <p className="text-gray-600">por reseña verificada</p>
+                <h3 className="text-2xl font-bold text-headline mb-2">Reseña Individual</h3>
+                <div className="text-4xl font-bold highlight mb-2">4€</div>
+                <p className="text-paragraph">por reseña verificada</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Reseña verificada en Google
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Usuario real verificado
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Mejora de calificación
@@ -159,9 +159,9 @@ function App() {
                 <span className="bg-black text-white px-4 py-1 rounded-full text-sm font-semibold">MÁS POPULAR</span>
               </div>
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Paquete Mensual</h3>
-                <div className="text-4xl font-bold text-black mb-2">Desde 80€</div>
-                <p className="text-gray-600">20 reseñas al mes</p>
+                <h3 className="text-2xl font-bold text-headline mb-2">Paquete Mensual</h3>
+                <div className="text-4xl font-bold highlight mb-2">Desde 80€</div>
+                <p className="text-paragraph">20 reseñas al mes</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
@@ -196,9 +196,9 @@ function App() {
 
             <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Plan Premium</h3>
-                <div className="text-4xl font-bold text-black mb-2">Desde 200€</div>
-                <p className="text-gray-600">50 reseñas al mes</p>
+                <h3 className="text-2xl font-bold text-headline mb-2">Plan Premium</h3>
+                <div className="text-4xl font-bold highlight mb-2">Desde 200€</div>
+                <p className="text-paragraph">50 reseñas al mes</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
