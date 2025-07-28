@@ -37,7 +37,7 @@ function App() {
               Mejoramos la reputación y posicionamiento de tu negocio local con reseñas auténticas en Google
             </p>
                                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                          <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center">
+                          <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center flex items-center justify-center">
                             Empezar Ahora
                           </a>
                           <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-black transition-colors hover-elegant">
@@ -409,10 +409,10 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Servicios</h3>
               <ul className="space-y-2 text-paragraph">
-                <li>Reseñas Verificadas</li>
-                <li>Paquetes Mensuales</li>
-                <li>Reseñas con Keywords</li>
-                <li>Reportes Mensuales</li>
+                <li><a href="#servicios" className="hover:text-headline transition-colors">Reseñas Verificadas</a></li>
+                <li><a href="#precios" className="hover:text-headline transition-colors">Paquetes Mensuales</a></li>
+                <li><a href="#servicios" className="hover:text-headline transition-colors">Reseñas con Keywords</a></li>
+                <li><a href="#servicios" className="hover:text-headline transition-colors">Reportes Mensuales</a></li>
               </ul>
             </div>
             
