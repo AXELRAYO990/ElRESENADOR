@@ -1,4 +1,4 @@
-/* Estilos elegantes para EL RESEÑADOR - Paleta Oscura */
+/* Estilos elegantes para EL RESEÑADOR - Paleta de Colores Específica */
 
 /* Smooth scrolling para navegación */
 html {
@@ -9,30 +9,32 @@ html {
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
+  background-color: #0F0F0F;
+  color: #FFFFFF;
 }
 
-/* Gradientes elegantes oscuros */
+/* Gradientes elegantes con la paleta específica */
 .gradient-elegant {
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 25%, #000000 50%, #1f1f1f 75%, #0f0f0f 100%);
+  background: linear-gradient(135deg, #0F0F0F 0%, #1C1C1E 25%, #2C2C2E 50%, #1C1C1E 75%, #0F0F0F 100%);
 }
 
 .gradient-hero {
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 25%, #2d2d2d 50%, #1f1f1f 75%, #0a0a0a 100%);
+  background: linear-gradient(135deg, #0F0F0F 0%, #1C1C1E 25%, #2C2C2E 50%, #1C1C1E 75%, #0F0F0F 100%);
 }
 
 .gradient-card {
-  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1f1f1f 100%);
+  background: linear-gradient(135deg, #1C1C1E 0%, #2C2C2E 50%, #1C1C1E 100%);
 }
 
 .gradient-button {
-  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #2C2C2E 0%, #1C1C1E 100%);
   transition: all 0.3s ease;
 }
 
 .gradient-button:hover {
-  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  background: linear-gradient(135deg, #4A4A4D 0%, #2C2C2E 100%);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 /* Efectos hover elegantes */
@@ -42,28 +44,29 @@ body {
 
 .hover-elegant:hover {
   transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-/* Cards con efectos glassmorphism oscuro */
+/* Cards con efectos glassmorphism usando la paleta específica */
 .glass-card {
-  background: rgba(26, 26, 26, 0.95);
+  background: rgba(28, 28, 30, 0.95);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid #3A3A3C;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .glass-card:hover {
-  background: rgba(45, 45, 45, 0.98);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  background: rgba(44, 44, 46, 0.98);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
   transform: translateY(-4px);
+  border-color: #4A4A4D;
 }
 
-/* Botones elegantes oscuros */
+/* Botones elegantes con la paleta específica */
 .btn-elegant {
-  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #2C2C2E 0%, #1C1C1E 100%);
   border: none;
-  color: white;
+  color: #FFFFFF;
   padding: 12px 32px;
   border-radius: 50px;
   font-weight: 600;
@@ -89,12 +92,13 @@ body {
 
 .btn-elegant:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #4A4A4D 0%, #2C2C2E 100%);
 }
 
-/* Efectos de texto */
+/* Efectos de texto con la paleta específica */
 .text-gradient {
-  background: linear-gradient(135deg, #ffffff 0%, #cccccc 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #D1D1D6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -133,19 +137,19 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
-/* Efectos de sombra elegantes */
+/* Efectos de sombra elegantes con la paleta específica */
 .shadow-elegant {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .shadow-elegant:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Efectos de borde */
+/* Efectos de borde con la paleta específica */
 .border-gradient {
   border: 2px solid;
-  border-image: linear-gradient(135deg, #2d2d2d, #1a1a1a) 1;
+  border-image: linear-gradient(135deg, #2C2C2E, #1C1C1E) 1;
 }
 
 /* Efectos de hover para navegación */
@@ -161,7 +165,7 @@ body {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background: linear-gradient(135deg, #ffffff, #cccccc);
+  background: linear-gradient(135deg, #FFFFFF, #D1D1D6);
   transition: width 0.3s ease;
 }
 
@@ -169,25 +173,26 @@ body {
   width: 100%;
 }
 
-/* Efectos para estadísticas */
+/* Efectos para estadísticas con la paleta específica */
 .stats-elegant {
-  background: linear-gradient(135deg, #ffffff 0%, #cccccc 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #D1D1D6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
 }
 
-/* Efectos para iconos */
+/* Efectos para iconos con la paleta específica */
 .icon-elegant {
-  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #2C2C2E 0%, #1C1C1E 100%);
   border-radius: 12px;
   transition: all 0.3s ease;
 }
 
 .icon-elegant:hover {
   transform: scale(1.1) rotate(5deg);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #4A4A4D 0%, #2C2C2E 100%);
 }
 
 /* Responsive improvements */
@@ -203,17 +208,19 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Efectos de hover para precios */
+/* Efectos de hover para precios con la paleta específica */
 .price-card-elegant {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border: 2px solid transparent;
-  background: linear-gradient(#1a1a1a, #1a1a1a) padding-box,
-              linear-gradient(135deg, #2d2d2d, #1a1a1a) border-box;
+  background: linear-gradient(#1C1C1E, #1C1C1E) padding-box,
+              linear-gradient(135deg, #2C2C2E, #1C1C1E) border-box;
 }
 
 .price-card-elegant:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(#2C2C2E, #2C2C2E) padding-box,
+              linear-gradient(135deg, #4A4A4D, #2C2C2E) border-box;
 }
 
 /* Efectos de texto con sombra */
@@ -226,4 +233,66 @@ body {
   background-image: 
     radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
     radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+}
+
+/* Clases adicionales para la paleta específica */
+.bg-primary-dark {
+  background-color: #0F0F0F;
+}
+
+.bg-card-dark {
+  background-color: #1C1C1E;
+}
+
+.bg-nav-dark {
+  background-color: #2C2C2E;
+}
+
+.border-subtle {
+  border-color: #3A3A3C;
+}
+
+.hover-dark {
+  background-color: #4A4A4D;
+}
+
+.text-secondary {
+  color: #5C5C5E;
+}
+
+.text-placeholder {
+  color: #8E8E93;
+}
+
+.border-soft {
+  border-color: #D1D1D6;
+}
+
+.bg-light {
+  background-color: #E5E5EA;
+}
+
+.bg-card-light {
+  background-color: #F2F2F7;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+/* Sombras específicas */
+.shadow-soft {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-medium {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.shadow-intense {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
 }

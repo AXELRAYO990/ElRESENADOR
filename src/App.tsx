@@ -3,9 +3,9 @@ import './App.css'
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-primary-dark">
       {/* Header/Navigation */}
-      <header className="bg-black text-white">
+      <header className="bg-nav-dark text-white">
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3 logo-container">
@@ -30,9 +30,9 @@ function App() {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Reseñas Verificadas
-              <span className="block text-gray-300">que Transforman</span>
+              <span className="block text-secondary">que Transforman</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-secondary mb-8 max-w-3xl mx-auto">
               Mejoramos la reputación y posicionamiento de tu negocio local con reseñas auténticas en Google
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -48,11 +48,11 @@ function App() {
       </section>
 
       {/* Servicios Section */}
-      <section id="servicios" className="py-20 bg-gray-900">
+      <section id="servicios" className="py-20 bg-primary-dark">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Nuestros Servicios</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-white mb-4">Nuestros Servicios</h2>
+            <p className="text-xl text-secondary max-w-3xl mx-auto">
               Especialistas en reseñas verificadas para negocios locales que quieren destacar en Google
             </p>
           </div>
@@ -65,10 +65,10 @@ function App() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gradient mb-4">Reseñas Verificadas en Google</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-secondary mb-6">
                 Generamos reseñas auténticas y verificadas que mejoran tu reputación y posicionamiento en Google Maps.
               </p>
-              <ul className="text-gray-600 space-y-2">
+              <ul className="text-secondary space-y-2">
                 <li>• Reseñas de usuarios reales</li>
                 <li>• Verificación completa en Google</li>
                 <li>• Mejora de calificación promedio</li>
@@ -113,7 +113,7 @@ function App() {
       </section>
 
       {/* Precios Section */}
-      <section className="py-20 bg-gray-800">
+      <section className="py-20 bg-card-dark">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Precios Transparentes</h2>
@@ -235,7 +235,7 @@ function App() {
       </section>
 
       {/* Estadísticas Section */}
-      <section className="py-20 bg-black text-white">
+      <section className="py-20 bg-primary-dark text-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Resultados que Hablan</h2>
@@ -264,7 +264,7 @@ function App() {
       </section>
 
       {/* Nosotros Section */}
-      <section id="nosotros" className="py-20 bg-gray-900">
+      <section id="nosotros" className="py-20 bg-card-dark">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -309,7 +309,7 @@ function App() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-black text-white">
+      <section className="py-20 bg-primary-dark text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">¿Listo para Mejorar tu Reputación?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
@@ -322,7 +322,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer id="contacto" className="bg-black text-white py-12">
+      <footer id="contacto" className="bg-nav-dark text-white py-12">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
