@@ -5,18 +5,19 @@ function App() {
   return (
     <div className="min-h-screen bg-primary-dark">
                         {/* Header/Navigation */}
-                  <header className="fixed top-0 left-0 right-0 z-50 bg-nav-dark/80 backdrop-blur-md text-white border-b border-subtle">
+                  <header className="fixed top-0 left-0 right-0 z-50 bg-nav-dark/95 backdrop-blur-md text-white border-b border-subtle">
                     <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3 logo-container">
               <img src="/El_Resenador.png" alt="EL RESEÑADOR" className="h-12 w-auto rounded-full float-animation" />
               <span className="text-xl font-bold text-shadow-elegant">EL RESEÑADOR</span>
             </div>
-            <div className="hidden md:flex space-x-8">
-              <a href="#servicios" className="hover:text-gray-300 transition-colors nav-link-elegant">Servicios</a>
-              <a href="#nosotros" className="hover:text-gray-300 transition-colors nav-link-elegant">Nosotros</a>
-              <a href="#contacto" className="hover:text-gray-300 transition-colors nav-link-elegant">Contacto</a>
-            </div>
+                                    <div className="hidden md:flex space-x-8">
+                          <a href="#servicios" className="hover:text-gray-300 transition-colors nav-link-elegant">Servicios</a>
+                          <a href="#precios" className="hover:text-gray-300 transition-colors nav-link-elegant">Precios</a>
+                          <a href="#nosotros" className="hover:text-gray-300 transition-colors nav-link-elegant">Nosotros</a>
+                          <a href="#contacto" className="hover:text-gray-300 transition-colors nav-link-elegant">Contacto</a>
+                        </div>
             <button className="btn-elegant px-6 py-2 font-semibold">
               Consulta Gratuita
             </button>
@@ -35,14 +36,14 @@ function App() {
             <p className="text-xl md:text-2xl text-paragraph mb-8 max-w-3xl mx-auto">
               Mejoramos la reputación y posicionamiento de tu negocio local con reseñas auténticas en Google
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="btn-elegant text-lg font-semibold">
-                Empezar Ahora
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-black transition-colors hover-elegant">
-                Ver Casos de Éxito
-              </button>
-            </div>
+                                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                          <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center">
+                            Empezar Ahora
+                          </a>
+                          <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-black transition-colors hover-elegant">
+                            Ver Casos de Éxito
+                          </button>
+                        </div>
           </div>
         </div>
       </section>
@@ -113,7 +114,7 @@ function App() {
       </section>
 
       {/* Precios Section */}
-      <section className="py-20 bg-card-dark">
+      <section id="precios" className="py-20 bg-card-dark">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-headline mb-4">Precios Transparentes</h2>
@@ -125,7 +126,7 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-headline mb-2">Reseña Individual</h3>
+                <h3 className="text-2xl font-bold text-headline mb-2">1 Reseña</h3>
                 <div className="text-4xl font-bold highlight mb-2">4€</div>
                 <p className="text-paragraph">por reseña verificada</p>
               </div>
@@ -149,9 +150,9 @@ function App() {
                   Mejora de calificación
                 </li>
               </ul>
-              <button className="w-full btn-elegant py-3 rounded-lg font-semibold">
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20paquete%20de%201%20reseña%20por%204€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
                 Comenzar Ahora
-              </button>
+              </a>
             </div>
 
             <div className="price-card-elegant p-8 rounded-xl shadow-elegant relative border-gradient">
@@ -159,76 +160,76 @@ function App() {
                 <span className="bg-black text-white px-4 py-1 rounded-full text-sm font-semibold">MÁS POPULAR</span>
               </div>
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-headline mb-2">Paquete Mensual</h3>
-                <div className="text-4xl font-bold highlight mb-2">Desde 80€</div>
-                <p className="text-paragraph">20 reseñas al mes</p>
+                <h3 className="text-2xl font-bold text-headline mb-2">10 Reseñas</h3>
+                <div className="text-4xl font-bold highlight mb-2">35€</div>
+                <p className="text-paragraph">paquete de 10 reseñas</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  20 reseñas verificadas
+                  10 reseñas verificadas
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Reporte mensual incluido
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Seguimiento continuo
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Reseñas con keywords
                 </li>
               </ul>
-              <button className="w-full btn-elegant py-3 rounded-lg font-semibold">
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20paquete%20de%2010%20reseñas%20por%2035€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
                 Elegir Plan
-              </button>
+              </a>
             </div>
 
             <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-headline mb-2">Plan Premium</h3>
-                <div className="text-4xl font-bold highlight mb-2">Desde 200€</div>
-                <p className="text-paragraph">50 reseñas al mes</p>
+                <h3 className="text-2xl font-bold text-headline mb-2">30 Reseñas</h3>
+                <div className="text-4xl font-bold highlight mb-2">100€</div>
+                <p className="text-paragraph">paquete de 30 reseñas</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  50 reseñas verificadas
+                  30 reseñas verificadas
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Reporte detallado semanal
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Soporte prioritario
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Reseñas con fotos incluidas
                 </li>
               </ul>
-              <button className="w-full btn-elegant py-3 rounded-lg font-semibold">
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20paquete%20de%2030%20reseñas%20por%20100€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
                 Elegir Plan
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -315,9 +316,9 @@ function App() {
           <p className="text-xl text-paragraph mb-8 max-w-2xl mx-auto">
             Únete a cientos de negocios locales que ya destacan en Google con reseñas verificadas y auténticas
           </p>
-          <button className="btn-elegant text-lg font-semibold px-8 py-4">
+          <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold px-8 py-4 inline-block">
             Obtener Consulta Gratuita
-          </button>
+          </a>
         </div>
       </section>
 
@@ -467,6 +468,13 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* WhatsApp Bubble */}
+      <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110">
+        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+      </a>
     </div>
   )
 }
