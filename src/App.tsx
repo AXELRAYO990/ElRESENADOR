@@ -186,6 +186,122 @@ function App() {
         </div>
       </section>
 
+      {/* Nosotros Section */}
+      <section id="nosotros" className="py-20 bg-gradient-to-br from-primary-dark via-card-dark to-primary-dark relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}></div>
+        </div>
+        
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-headline mb-6">¿Por qué elegir El Reseñador?</h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-highlight to-purple-500 mx-auto mb-8"></div>
+            <p className="text-xl text-paragraph max-w-4xl mx-auto leading-relaxed">
+              En un mundo donde la primera impresión sucede en Google, la reputación online lo es todo. 
+              Somos especialistas en generar reseñas verificadas y reales para negocios locales que quieren destacar frente a su competencia.
+            </p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
+            <div className="space-y-8">
+              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
+                <h3 className="text-2xl font-bold text-headline mb-4">Nuestra Misión</h3>
+                <p className="text-lg text-paragraph leading-relaxed">
+                  Ayudamos a restaurantes, tiendas, peluquerías, gimnasios, clínicas y otros negocios físicos 
+                  a fortalecer su presencia digital con reseñas auténticas que transmiten confianza y credibilidad a nuevos clientes.
+                </p>
+              </div>
+              
+              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
+                <h3 className="text-2xl font-bold text-headline mb-4">Nuestro Objetivo</h3>
+                <p className="text-lg text-paragraph leading-relaxed">
+                  Convertir tu perfil de Google en una herramienta de ventas activa, atrayendo más visitas, 
+                  generando más llamadas y aumentando tu facturación de manera sostenible.
+                </p>
+              </div>
+            </div>
+            
+            <div className="relative">
+              <div className="relative z-10">
+                <img src="/logor.png" alt="EL RESEÑADOR" className="w-full max-w-lg mx-auto drop-shadow-2xl" />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-r from-highlight/20 to-purple-500/20 rounded-full blur-3xl transform scale-150"></div>
+            </div>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
+              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-headline mb-4 text-center">Reseñas 100% verificadas</h3>
+              <p className="text-paragraph text-center leading-relaxed">
+                Todas las reseñas provienen de usuarios reales, con cuentas activas y comportamiento natural, 
+                para garantizar autenticidad y evitar sanciones.
+              </p>
+            </div>
+            
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
+              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-headline mb-4 text-center">Posicionamiento local mejorado</h3>
+              <p className="text-paragraph text-center leading-relaxed">
+                Las reseñas ayudan a que tu negocio aparezca más arriba en las búsquedas locales de Google Maps 
+                y aumente su visibilidad.
+              </p>
+            </div>
+            
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
+              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-headline mb-4 text-center">Contenido estratégico</h3>
+              <p className="text-paragraph text-center leading-relaxed">
+                Podemos incluir palabras clave, nombres de productos o servicios específicos para reforzar 
+                tu SEO local y captar al cliente ideal.
+              </p>
+            </div>
+            
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
+              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-headline mb-4 text-center">Resultados visibles</h3>
+              <p className="text-paragraph text-center leading-relaxed">
+                Desde las primeras reseñas verás una mejora en tu puntuación promedio y más interacción 
+                en tu perfil.
+              </p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-16">
+            <div className="glass-card p-12 rounded-3xl max-w-4xl mx-auto">
+              <h3 className="text-3xl font-bold text-headline mb-6">
+                Confía en nosotros para llevar tu negocio al siguiente nivel
+              </h3>
+              <p className="text-xl text-paragraph mb-8">
+                Únete a cientos de negocios que ya han mejorado su reputación online con El Reseñador
+              </p>
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20El%20Reseñador" target="_blank" rel="noopener noreferrer" className="btn-elegant px-8 py-4 text-lg font-semibold inline-block">
+                Comenzar Ahora
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Precios Section */}
       <section id="precios" className="py-20 bg-primary-dark">
         <div className="container mx-auto px-6">
@@ -400,87 +516,6 @@ function App() {
 
 
 
-      {/* Nosotros Section */}
-      <section id="nosotros" className="py-20 bg-card-dark">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-headline mb-6">¿Por qué elegir El Reseñador?</h2>
-              <p className="text-lg text-paragraph mb-6">
-                En un mundo donde la primera impresión sucede en Google, la reputación online lo es todo. En El Reseñador somos especialistas en generar reseñas verificadas y reales para negocios locales que quieren destacar frente a su competencia.
-              </p>
-              <p className="text-lg text-paragraph mb-6">
-                Ayudamos a restaurantes, tiendas, peluquerías, gimnasios, clínicas y otros negocios físicos a fortalecer su presencia digital con reseñas auténticas que transmiten confianza y credibilidad a nuevos clientes.
-              </p>
-              <p className="text-lg text-paragraph mb-8">
-                Nuestro objetivo es convertir tu perfil de Google en una herramienta de ventas activa, atrayendo más visitas, generando más llamadas y aumentando tu facturación.
-              </p>
-              
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 highlight-bg rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-headline mb-2">Reseñas 100% verificadas</h3>
-                    <p className="text-paragraph">Todas las reseñas provienen de usuarios reales, con cuentas activas y comportamiento natural, para garantizar autenticidad y evitar sanciones.</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 highlight-bg rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-headline mb-2">Posicionamiento local mejorado</h3>
-                    <p className="text-paragraph">Las reseñas ayudan a que tu negocio aparezca más arriba en las búsquedas locales de Google Maps y aumente su visibilidad.</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 highlight-bg rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-headline mb-2">Contenido estratégico</h3>
-                    <p className="text-paragraph">Podemos incluir palabras clave, nombres de productos o servicios específicos para reforzar tu SEO local y captar al cliente ideal.</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 highlight-bg rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-headline mb-2">Resultados visibles</h3>
-                    <p className="text-paragraph">Desde las primeras reseñas verás una mejora en tu puntuación promedio y más interacción en tu perfil.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="mt-8 p-6 glass-card rounded-xl">
-                <p className="text-lg font-semibold text-headline text-center">
-                  Confía en nosotros para llevar tu negocio al siguiente nivel.
-                </p>
-              </div>
-            </div>
-            <div className="relative">
-              <img src="/logor.png" alt="EL RESEÑADOR" className="w-full max-w-md mx-auto" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
       {/* Contact Section */}
       <section className="py-20 bg-card-dark">
         <div className="container mx-auto px-6">
@@ -605,7 +640,7 @@ function App() {
               <div className="flex space-x-4">
                 <a href="#" className="text-paragraph hover:text-headline transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
                   </svg>
                 </a>
                 <a href="#" className="text-paragraph hover:text-headline transition-colors">
