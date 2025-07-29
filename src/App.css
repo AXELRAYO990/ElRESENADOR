@@ -135,6 +135,7 @@ body {
 
 .float-animation {
   animation: float 3s ease-in-out infinite;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
 /* Efectos de sombra elegantes con la nueva paleta */
@@ -156,21 +157,12 @@ body {
 .nav-link-elegant {
   position: relative;
   transition: all 0.3s ease;
+  color: #fffffe;
 }
 
-.nav-link-elegant::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -4px;
-  left: 0;
-  background: linear-gradient(135deg, #7f5af0, #6b4fd8);
-  transition: width 0.3s ease;
-}
-
-.nav-link-elegant:hover::after {
-  width: 100%;
+.nav-link-elegant:hover {
+  color: #7f5af0;
+  transform: translateY(-1px);
 }
 
 /* Efectos para estadísticas con la nueva paleta */
@@ -225,7 +217,7 @@ body {
 
 /* Efectos de texto con sombra */
 .text-shadow-elegant {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Efectos de fondo con patrón sutil */
