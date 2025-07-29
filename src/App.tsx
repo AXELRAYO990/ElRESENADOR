@@ -279,19 +279,7 @@ function App() {
             </div>
           </div>
           
-          <div className="text-center mt-16">
-            <div className="glass-card p-12 rounded-3xl max-w-4xl mx-auto">
-              <h3 className="text-3xl font-bold text-headline mb-6">
-                Confía en nosotros para llevar tu negocio al siguiente nivel
-              </h3>
-              <p className="text-xl text-paragraph mb-8">
-                Únete a cientos de negocios que ya han mejorado su reputación online con El Reseñador
-              </p>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20reseña%20gratuita" target="_blank" rel="noopener noreferrer" className="btn-elegant px-8 py-4 text-lg font-semibold inline-block">
-                reseña gratuita
-              </a>
-            </div>
-          </div>
+
         </div>
       </section>
 
