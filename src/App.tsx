@@ -499,20 +499,7 @@ function App() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="glass-card p-8 rounded-xl text-center hover-elegant">
-              <div className="w-16 h-16 highlight-bg rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-headline mb-4">Teléfono</h3>
-              <p className="text-paragraph mb-4">Llámanos directamente</p>
-              <a href="tel:+34632425771" className="text-success hover:text-headline transition-colors">
-                +34 632 42 57 71
-              </a>
-            </div>
-            
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20reseña%20gratuita%20para%20mejorar%20mi%20reputación%20online%20en%20Google.%20¿Podrían%20ayudarme%20con%20más%20información%20sobre%20sus%20servicios?" target="_blank" rel="noopener noreferrer" className="glass-card p-8 rounded-xl text-center hover-elegant block">
               <div className="w-16 h-16 highlight-bg rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
