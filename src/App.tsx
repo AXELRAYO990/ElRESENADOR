@@ -211,35 +211,45 @@ function App() {
           </div>
           
           {/* Características Destacadas */}
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 text-center">
-              <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center mb-4 mx-auto">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-                </svg>
+          <div className="flex justify-center">
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 max-w-2xl">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="flex items-center space-x-3">
+                  <div className="w-10 h-10 highlight-bg rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">100% Confidencial</h4>
+                    <p className="text-paragraph text-xs">Tu información segura</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-10 h-10 highlight-bg rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">Resultados Inmediatos</h4>
+                    <p className="text-paragraph text-xs">Desde el primer día</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-10 h-10 highlight-bg rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">Negocios Locales</h4>
+                    <p className="text-paragraph text-xs">Enfoque especializado</p>
+                  </div>
+                </div>
               </div>
-              <h4 className="text-lg font-bold text-headline mb-2">100% Confidencial</h4>
-              <p className="text-paragraph text-sm">Tu información completamente segura</p>
-            </div>
-            
-            <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 text-center">
-              <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center mb-4 mx-auto">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                </svg>
-              </div>
-              <h4 className="text-lg font-bold text-headline mb-2">Resultados Inmediatos</h4>
-              <p className="text-paragraph text-sm">Resultados desde el primer día</p>
-            </div>
-            
-            <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 text-center">
-              <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center mb-4 mx-auto">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h4 className="text-lg font-bold text-headline mb-2">Enfocado en Negocios Locales</h4>
-              <p className="text-paragraph text-sm">Enfocados en negocios locales</p>
             </div>
           </div>
         </div>
