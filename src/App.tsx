@@ -111,7 +111,7 @@ function App() {
             </p>
                                     <div className="flex justify-center">
                           <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center flex items-center justify-center">
-                            Empezar Ahora
+                          reseña gratuita
                           </a>
                         </div>
           </div>
@@ -499,21 +499,7 @@ function App() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="glass-card p-8 rounded-xl text-center hover-elegant">
-              <div className="w-16 h-16 highlight-bg rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-headline mb-4">Email</h3>
-              <p className="text-paragraph mb-4">Envíanos un mensaje</p>
-              <a href="mailto:info@elresenador.com" className="text-success hover:text-headline transition-colors">
-                info@elresenador.com
-              </a>
-            </div>
-            
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="glass-card p-8 rounded-xl text-center hover-elegant">
               <div className="w-16 h-16 highlight-bg rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -538,22 +524,6 @@ function App() {
               <p className="text-success">
                 Ciudad de México, México
               </p>
-            </div>
-          </div>
-          
-          <div className="text-center mt-12">
-            <h3 className="text-2xl font-bold text-headline mb-6">Horarios de Atención</h3>
-            <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
-              <div className="glass-card p-6 rounded-xl">
-                <h4 className="text-lg font-semibold text-headline mb-4">Días Laborales</h4>
-                <p className="text-paragraph">Lunes a Viernes</p>
-                <p className="text-success font-semibold">9:00 AM - 6:00 PM</p>
-              </div>
-              <div className="glass-card p-6 rounded-xl">
-                <h4 className="text-lg font-semibold text-headline mb-4">Fin de Semana</h4>
-                <p className="text-paragraph">Sábados</p>
-                <p className="text-success font-semibold">10:00 AM - 2:00 PM</p>
-              </div>
             </div>
           </div>
         </div>
@@ -586,13 +556,6 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contacto</h3>
               <ul className="space-y-2 text-paragraph">
-                <li className="flex items-center">
-                  <svg className="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                  </svg>
-                  info@elresenador.com
-                </li>
                 <li className="flex items-center">
                   <svg className="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
