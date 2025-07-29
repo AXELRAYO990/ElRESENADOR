@@ -280,9 +280,7 @@ function App() {
                 <p className="text-lg text-paragraph leading-relaxed mb-4">
                   Ayudamos a negocios locales a fortalecer su presencia digital mediante reseñas auténticas y verificadas que generan confianza y credibilidad.
                 </p>
-                <p className="text-paragraph leading-relaxed">
-                  En un mundo donde la primera impresión sucede en Google, somos especialistas en generar reseñas que transmiten confianza a nuevos clientes y mejoran tu posicionamiento local.
-                </p>
+               
               </div>
               
               <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
@@ -290,9 +288,7 @@ function App() {
                 <p className="text-lg text-paragraph leading-relaxed mb-4">
                   Convertimos tu perfil de Google en una herramienta de ventas activa que atrae más visitas, genera más llamadas y aumenta tu facturación.
                 </p>
-                <p className="text-paragraph leading-relaxed">
-                  Ayudamos a restaurantes, tiendas, peluquerías, gimnasios, clínicas y otros negocios físicos a destacar frente a su competencia con reseñas estratégicas que incluyen palabras clave específicas.
-                </p>
+                
               </div>
             </div>
             
@@ -470,10 +466,7 @@ function App() {
             </div>
 
             {/* Pack Pro */}
-            <div className="price-card-elegant p-8 rounded-xl shadow-elegant relative border-gradient">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-black text-white px-4 py-1 rounded-full text-sm font-semibold">MÁS POPULAR</span>
-              </div>
+            <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
               <div className="text-center mb-6">
                 <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center">
                   <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
