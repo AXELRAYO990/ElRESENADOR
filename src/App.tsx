@@ -294,8 +294,8 @@ function App() {
               <p className="text-xl text-paragraph mb-8">
                 Únete a cientos de negocios que ya han mejorado su reputación online con El Reseñador
               </p>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20los%20servicios%20de%20El%20Reseñador" target="_blank" rel="noopener noreferrer" className="btn-elegant px-8 py-4 text-lg font-semibold inline-block">
-                Comenzar Ahora
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20reseña%20gratuita" target="_blank" rel="noopener noreferrer" className="btn-elegant px-8 py-4 text-lg font-semibold inline-block">
+                reseña gratuita
               </a>
             </div>
           </div>
@@ -356,9 +356,7 @@ function App() {
                   Privacidad garantizada
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20mini%20de%2010%20reseñas%20por%2035€%20con%2010%%20de%20descuento" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
-                Elegir Plan
-              </a>
+
             </div>
 
             {/* Pack Pro */}
@@ -408,9 +406,7 @@ function App() {
                   Privacidad garantizada
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20pro%20de%2025%20reseñas%20por%2075€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
-                Elegir Plan
-              </a>
+
             </div>
 
             {/* Pack Avanzado */}
@@ -457,9 +453,7 @@ function App() {
                   Privacidad garantizada
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20avanzado%20de%2050%20reseñas%20por%20140€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
-                Elegir Plan
-              </a>
+
             </div>
 
             {/* Pack Premium */}
@@ -506,9 +500,7 @@ function App() {
                   Privacidad garantizada
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20premium%20de%20100%20reseñas%20por%20275€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
-                Elegir Plan
-              </a>
+
             </div>
           </div>
         </div>
