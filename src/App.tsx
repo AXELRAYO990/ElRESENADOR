@@ -352,34 +352,7 @@ function App() {
         </div>
       </section>
 
-      {/* Estadísticas Section */}
-      <section className="py-20 bg-primary-dark text-white">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Resultados que Hablan</h2>
-            <p className="text-xl text-gray-300">Nuestros números demuestran nuestro compromiso con el éxito</p>
-          </div>
-          
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="fade-in-up">
-              <div className="text-5xl font-bold stats-elegant mb-2">250+</div>
-              <div className="text-gray-300">Reseñas al mes</div>
-            </div>
-            <div className="fade-in-up">
-              <div className="text-5xl font-bold stats-elegant mb-2">200+</div>
-              <div className="text-gray-300">Negocios atendidos</div>
-            </div>
-            <div className="fade-in-up">
-              <div className="text-5xl font-bold stats-elegant mb-2">4.8★</div>
-              <div className="text-gray-300">Calificación promedio</div>
-            </div>
-            <div className="fade-in-up">
-              <div className="text-5xl font-bold stats-elegant mb-2">100%</div>
-              <div className="text-gray-300">Reseñas verificadas</div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Nosotros Section */}
       <section id="nosotros" className="py-20 bg-card-dark">
@@ -426,18 +399,7 @@ function App() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-primary-dark text-white">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold text-headline mb-6">¿Listo para Mejorar tu Reputación?</h2>
-          <p className="text-xl text-paragraph mb-8 max-w-2xl mx-auto">
-            Únete a cientos de negocios locales que ya destacan en Google con reseñas verificadas y auténticas
-          </p>
-          <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold px-8 py-4 inline-block">
-            Obtener Consulta Gratuita
-          </a>
-        </div>
-      </section>
+
 
       {/* Contact Section */}
       <section className="py-20 bg-card-dark">
