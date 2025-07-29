@@ -27,8 +27,8 @@ function App() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               <a href="#servicios" className="hover:text-gray-300 transition-colors nav-link-elegant">Servicios</a>
-              <a href="#precios" className="hover:text-gray-300 transition-colors nav-link-elegant">Precios</a>
               <a href="#nosotros" className="hover:text-gray-300 transition-colors nav-link-elegant">Nosotros</a>
+              <a href="#precios" className="hover:text-gray-300 transition-colors nav-link-elegant">Precios</a>
               <a href="#contacto" className="hover:text-gray-300 transition-colors nav-link-elegant">Contacto</a>
             </div>
 
@@ -62,18 +62,18 @@ function App() {
                 Servicios
               </a>
               <a 
-                href="#precios" 
-                className="block py-2 px-4 rounded-lg hover:bg-white/10 transition-colors nav-link-elegant"
-                onClick={closeMenu}
-              >
-                Precios
-              </a>
-              <a 
                 href="#nosotros" 
                 className="block py-2 px-4 rounded-lg hover:bg-white/10 transition-colors nav-link-elegant"
                 onClick={closeMenu}
               >
                 Nosotros
+              </a>
+              <a 
+                href="#precios" 
+                className="block py-2 px-4 rounded-lg hover:bg-white/10 transition-colors nav-link-elegant"
+                onClick={closeMenu}
+              >
+                Precios
               </a>
               <a 
                 href="#contacto" 
@@ -109,13 +109,10 @@ function App() {
             <p className="text-xl md:text-2xl text-paragraph mb-8 max-w-3xl mx-auto">
               Mejoramos la reputación y posicionamiento de tu negocio local con reseñas auténticas en Google
             </p>
-                                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                                    <div className="flex justify-center">
                           <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center flex items-center justify-center">
                             Empezar Ahora
                           </a>
-                          <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-black transition-colors hover-elegant">
-                            Ver Casos de Éxito
-                          </button>
                         </div>
           </div>
         </div>
