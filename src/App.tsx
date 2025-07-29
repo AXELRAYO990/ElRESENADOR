@@ -147,7 +147,7 @@ function App() {
               <span className="block highlight">que Transforman</span>
             </h1>
             <p className="text-xl md:text-2xl text-paragraph mb-8 max-w-3xl mx-auto">
-              Mejoramos la reputación y posicionamiento de tu negocio local con reseñas auténticas en Google
+              Mejora tu reputación online con reseñas auténticas
             </p>
                                     <div className="flex justify-center">
                           <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20reseña%20gratuita%20para%20mejorar%20mi%20reputación%20online%20en%20Google.%20¿Podrían%20ayudarme%20con%20más%20información%20sobre%20sus%20servicios?" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center flex items-center justify-center">
@@ -164,7 +164,7 @@ function App() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-headline mb-4">Nuestros Servicios</h2>
             <p className="text-xl text-paragraph max-w-4xl mx-auto leading-relaxed">
-              En El Reseñador nos especializamos en ayudar a negocios locales a mejorar su reputación online mediante reseñas auténticas, verificadas y estratégicamente optimizadas para posicionarse mejor en Google Maps y búsquedas locales.
+              Especialistas en reseñas verificadas para negocios locales
             </p>
           </div>
           
@@ -181,7 +181,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4">Generación de Reseñas Verificadas</h3>
               <p className="text-paragraph leading-relaxed flex-grow">
-                Obtenemos reseñas de usuarios reales con verificación completa en Google, lo que mejora tu calificación promedio y genera mayor confianza en tus potenciales clientes.
+                Reseñas de usuarios reales verificadas en Google
               </p>
             </div>
             
@@ -193,7 +193,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4">Paquetes Estratégicos de Reseñas</h3>
               <p className="text-paragraph leading-relaxed flex-grow">
-                Ofrecemos paquetes únicos que se adaptan a las necesidades de tu negocio. Pagas una sola vez y obtienes resultados desde el primer día.
+                Paquetes únicos adaptados a tu negocio
               </p>
             </div>
             
@@ -205,7 +205,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4">Reseñas con Palabras Clave Locales</h3>
               <p className="text-paragraph leading-relaxed flex-grow">
-                Cada reseña está redactada estratégicamente con palabras clave específicas y menciones de tus productos o servicios, lo que fortalece tu SEO local y aumenta tu visibilidad en búsquedas relevantes.
+                Reseñas con palabras clave para mejorar tu SEO local
               </p>
             </div>
           </div>
@@ -219,7 +219,7 @@ function App() {
                 </svg>
               </div>
               <h4 className="text-lg font-bold text-headline mb-2">100% Confidencial</h4>
-              <p className="text-paragraph text-sm">Tu información y estrategia se mantienen completamente seguras</p>
+              <p className="text-paragraph text-sm">Tu información completamente segura</p>
             </div>
             
             <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 text-center">
@@ -229,7 +229,7 @@ function App() {
                 </svg>
               </div>
               <h4 className="text-lg font-bold text-headline mb-2">Resultados Inmediatos</h4>
-              <p className="text-paragraph text-sm">Empiezas a ver mejoras desde las primeras reseñas</p>
+              <p className="text-paragraph text-sm">Resultados desde el primer día</p>
             </div>
             
             <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 text-center">
@@ -239,7 +239,7 @@ function App() {
                 </svg>
               </div>
               <h4 className="text-lg font-bold text-headline mb-2">Enfocado en Negocios Locales</h4>
-              <p className="text-paragraph text-sm">Especialistas en mejorar tu visibilidad local</p>
+              <p className="text-paragraph text-sm">Enfocados en negocios locales</p>
             </div>
           </div>
         </div>
@@ -259,8 +259,7 @@ function App() {
             <h2 className="text-5xl font-bold text-headline mb-6">¿Por qué elegir El Reseñador?</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-highlight to-purple-500 mx-auto mb-8"></div>
             <p className="text-xl text-paragraph max-w-4xl mx-auto leading-relaxed">
-              En un mundo donde la primera impresión sucede en Google, la reputación online lo es todo. 
-              Somos especialistas en generar reseñas verificadas y reales para negocios locales que quieren destacar frente a su competencia.
+              Especialistas en reseñas verificadas para negocios locales
             </p>
           </div>
           
@@ -269,16 +268,14 @@ function App() {
               <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
                 <h3 className="text-2xl font-bold text-headline mb-4">Nuestra Misión</h3>
                 <p className="text-lg text-paragraph leading-relaxed">
-                  Ayudamos a restaurantes, tiendas, peluquerías, gimnasios, clínicas y otros negocios físicos 
-                  a fortalecer su presencia digital con reseñas auténticas que transmiten confianza y credibilidad a nuevos clientes.
+                  Ayudamos a negocios locales a fortalecer su presencia digital
                 </p>
               </div>
               
               <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
                 <h3 className="text-2xl font-bold text-headline mb-4">Nuestro Objetivo</h3>
                 <p className="text-lg text-paragraph leading-relaxed">
-                  Convertir tu perfil de Google en una herramienta de ventas activa, atrayendo más visitas, 
-                  generando más llamadas y aumentando tu facturación de manera sostenible.
+                  Convertimos tu perfil de Google en una herramienta de ventas
                 </p>
               </div>
             </div>
@@ -361,7 +358,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4 text-center">Reseñas 100% verificadas</h3>
               <p className="text-paragraph text-center leading-relaxed">
-                Usuarios reales con cuentas activas. Garantizamos autenticidad y evitamos sanciones.
+                Usuarios reales con cuentas activas
               </p>
             </div>
             
@@ -373,7 +370,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4 text-center">Posicionamiento local mejorado</h3>
               <p className="text-paragraph text-center leading-relaxed">
-                Aparece más arriba en Google Maps y aumenta tu visibilidad local.
+                Aparece más arriba en Google Maps
               </p>
             </div>
             
@@ -385,7 +382,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4 text-center">Contenido estratégico</h3>
               <p className="text-paragraph text-center leading-relaxed">
-                Incluimos palabras clave específicas para mejorar tu SEO local.
+                Palabras clave para mejorar tu SEO
               </p>
             </div>
             
@@ -397,7 +394,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4 text-center">Resultados visibles</h3>
               <p className="text-paragraph text-center leading-relaxed">
-                Mejora tu puntuación promedio desde las primeras reseñas.
+                Mejora tu puntuación promedio
               </p>
             </div>
           </div>
@@ -663,7 +660,7 @@ function App() {
               <span className="text-xl font-bold">EL RESEÑADOR</span>
             </div>
               <p className="text-paragraph">
-                Especialistas en reseñas verificadas para negocios locales que quieren destacar en Google.
+                Especialistas en reseñas verificadas para negocios locales
               </p>
             </div>
             
