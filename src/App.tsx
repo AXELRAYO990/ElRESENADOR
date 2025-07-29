@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import './App.css'
 
 function App() {
@@ -11,6 +11,46 @@ function App() {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+
+  // Contador animado
+  useEffect(() => {
+    const counters = document.querySelectorAll('.counter')
+    const speed = 200
+
+    const animateCounter = (counter: Element) => {
+      const target = parseInt(counter.getAttribute('data-target') || '0')
+      const count = parseInt(counter.textContent || '0')
+      const increment = target / speed
+
+      if (count < target) {
+        counter.textContent = Math.ceil(count + increment).toString()
+        setTimeout(() => animateCounter(counter), 1)
+      } else {
+        counter.textContent = target.toString()
+      }
+    }
+
+    // Intersection Observer para animar cuando el elemento sea visible
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const counter = entry.target
+          animateCounter(counter)
+          observer.unobserve(counter)
+        }
+      })
+    }, { threshold: 0.5 })
+
+    counters.forEach(counter => {
+      observer.observe(counter)
+    })
+
+    return () => {
+      counters.forEach(counter => {
+        observer.unobserve(counter)
+      })
+    }
+  }, [])
 
   return (
     <div className="min-h-screen bg-primary-dark">
@@ -226,6 +266,63 @@ function App() {
                 <img src="/logor.png" alt="EL RESEÑADOR" className="w-full max-w-lg mx-auto drop-shadow-2xl" />
               </div>
               <div className="absolute inset-0 bg-gradient-to-r from-highlight/20 to-purple-500/20 rounded-full blur-3xl transform scale-150"></div>
+            </div>
+          </div>
+          
+          {/* Estadísticas Animadas */}
+          <div className="text-center my-20">
+            <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
+                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                </div>
+                <div className="text-4xl font-bold text-headline mb-2">
+                  <span className="counter" data-target="300">0</span>+
+                </div>
+                <h3 className="text-xl font-bold text-headline mb-2">Clientes Satisfechos</h3>
+                <p className="text-paragraph">100% Garantizado</p>
+              </div>
+              
+              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
+                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
+                  </svg>
+                </div>
+                <div className="text-4xl font-bold text-headline mb-2">
+                  <span className="counter" data-target="1500">0</span>+
+                </div>
+                <h3 className="text-xl font-bold text-headline mb-2">Reseñas Generadas</h3>
+                <p className="text-paragraph">Verificadas y Auténticas</p>
+              </div>
+              
+              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
+                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                  </svg>
+                </div>
+                <div className="text-4xl font-bold text-headline mb-2">
+                  <span className="counter" data-target="50">0</span>+
+                </div>
+                <h3 className="text-xl font-bold text-headline mb-2">Ciudades Atendidas</h3>
+                <p className="text-paragraph">Cobertura Nacional</p>
+              </div>
+              
+              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
+                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                  </svg>
+                </div>
+                <div className="text-4xl font-bold text-headline mb-2">
+                  <span className="counter" data-target="98">0</span>%
+                </div>
+                <h3 className="text-xl font-bold text-headline mb-2">Tasa de Éxito</h3>
+                <p className="text-paragraph">Resultados Comprobados</p>
+              </div>
             </div>
           </div>
           
