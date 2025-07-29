@@ -152,14 +152,14 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gradient mb-4">Paquetes Mensuales</h3>
+              <h3 className="text-2xl font-bold text-gradient mb-4">Paquetes de Reseñas</h3>
               <p className="text-paragraph mb-6">
-                Mantenimiento continuo de tu reputación online con reseñas estratégicas y reportes mensuales.
+                Paquetes únicos con reseñas estratégicas para mejorar tu reputación online de forma inmediata.
               </p>
               <ul className="text-paragraph space-y-2">
-                <li>• Reseñas continuas</li>
-                <li>• Reportes mensuales</li>
-                <li>• Seguimiento de resultados</li>
+                <li>• Reseñas verificadas</li>
+                <li>• Pago único</li>
+                <li>• Resultados inmediatos</li>
               </ul>
             </div>
 
@@ -593,7 +593,7 @@ function App() {
               <h3 className="text-lg font-semibold mb-4">Servicios</h3>
               <ul className="space-y-2 text-paragraph">
                 <li><a href="#servicios" className="hover:text-headline transition-colors">Reseñas Verificadas</a></li>
-                <li><a href="#precios" className="hover:text-headline transition-colors">Paquetes Mensuales</a></li>
+                <li><a href="#precios" className="hover:text-headline transition-colors">Paquetes de Reseñas</a></li>
                 <li><a href="#servicios" className="hover:text-headline transition-colors">Reseñas con Keywords</a></li>
                 <li><a href="#servicios" className="hover:text-headline transition-colors">Reportes Mensuales</a></li>
               </ul>
