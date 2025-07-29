@@ -123,46 +123,50 @@ function App() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            {/* Plan Básico */}
             <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-headline mb-2">1 Reseña</h3>
-                <div className="text-4xl font-bold highlight mb-2">4€</div>
-                <p className="text-paragraph">por reseña verificada</p>
+                <div className="text-4xl mb-4">🟢</div>
+                <h3 className="text-2xl font-bold text-headline mb-2">Básico</h3>
+                <div className="text-4xl font-bold highlight mb-2">PRUEBA</div>
+                <p className="text-paragraph">1 reseña</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Reseña verificada en Google
+                  1 reseña verificada
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Usuario real verificado
+                  Reseña con keywords
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Mejora de calificación
+                  Reporte incluido
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20paquete%20de%201%20reseña%20por%204€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
-                Comenzar Ahora
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20plan%20básico%20de%20prueba%20con%201%20reseña" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
+                Elegir Plan
               </a>
             </div>
 
+            {/* Pack Mini */}
             <div className="price-card-elegant p-8 rounded-xl shadow-elegant relative border-gradient">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                 <span className="bg-black text-white px-4 py-1 rounded-full text-sm font-semibold">MÁS POPULAR</span>
               </div>
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-headline mb-2">10 Reseñas</h3>
+                <div className="text-4xl mb-4">🟡</div>
+                <h3 className="text-2xl font-bold text-headline mb-2">Pack Mini</h3>
                 <div className="text-4xl font-bold highlight mb-2">35€</div>
-                <p className="text-paragraph">paquete de 10 reseñas</p>
+                <p className="text-paragraph">10 reseñas</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
@@ -175,31 +179,27 @@ function App() {
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Reporte mensual incluido
-                </li>
-                <li className="flex items-center">
-                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Seguimiento continuo
-                </li>
-                <li className="flex items-center">
-                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
                   Reseñas con keywords
                 </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Reporte mensual
+                </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20paquete%20de%2010%20reseñas%20por%2035€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20mini%20de%2010%20reseñas%20por%2035€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
                 Elegir Plan
               </a>
             </div>
 
+            {/* Pack Pro */}
             <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-headline mb-2">30 Reseñas</h3>
-                <div className="text-4xl font-bold highlight mb-2">100€</div>
-                <p className="text-paragraph">paquete de 30 reseñas</p>
+                <div className="text-4xl mb-4">🔵</div>
+                <h3 className="text-2xl font-bold text-headline mb-2">Pack Pro</h3>
+                <div className="text-4xl font-bold highlight mb-2">95€</div>
+                <p className="text-paragraph">30 reseñas</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
@@ -212,22 +212,115 @@ function App() {
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Reporte detallado semanal
+                  Reseñas con keywords
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Soporte prioritario
-                </li>
-                <li className="flex items-center">
-                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Reseñas con fotos incluidas
+                  Reporte mensual
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20paquete%20de%2030%20reseñas%20por%20100€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20pro%20de%2030%20reseñas%20por%2095€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
+                Elegir Plan
+              </a>
+            </div>
+
+            {/* Pack Plus */}
+            <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
+              <div className="text-center mb-6">
+                <div className="text-4xl mb-4">🟢</div>
+                <h3 className="text-2xl font-bold text-headline mb-2">Pack Plus</h3>
+                <div className="text-4xl font-bold highlight mb-2">150€</div>
+                <p className="text-paragraph">50 reseñas</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  50 reseñas verificadas
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Reseñas con keywords
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Reporte mensual
+                </li>
+              </ul>
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20plus%20de%2050%20reseñas%20por%20150€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
+                Elegir Plan
+              </a>
+            </div>
+
+            {/* Pack Ultra */}
+            <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
+              <div className="text-center mb-6">
+                <div className="text-4xl mb-4">🟡</div>
+                <h3 className="text-2xl font-bold text-headline mb-2">Pack Ultra</h3>
+                <div className="text-4xl font-bold highlight mb-2">250€</div>
+                <p className="text-paragraph">100 reseñas</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  100 reseñas verificadas
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Reseñas con keywords
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Reporte mensual
+                </li>
+              </ul>
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20ultra%20de%20100%20reseñas%20por%20250€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
+                Elegir Plan
+              </a>
+            </div>
+
+            {/* Pack Mega */}
+            <div className="price-card-elegant p-8 rounded-xl shadow-elegant">
+              <div className="text-center mb-6">
+                <div className="text-4xl mb-4">🔵</div>
+                <h3 className="text-2xl font-bold text-headline mb-2">Pack Mega</h3>
+                <div className="text-4xl font-bold highlight mb-2">575€</div>
+                <p className="text-paragraph">250 reseñas</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  250 reseñas verificadas
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Reseñas con keywords
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Reporte mensual
+                </li>
+              </ul>
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20el%20pack%20mega%20de%20250%20reseñas%20por%20575€" target="_blank" rel="noopener noreferrer" className="w-full btn-elegant py-3 rounded-lg font-semibold block text-center">
                 Elegir Plan
               </a>
             </div>
