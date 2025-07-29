@@ -15,7 +15,7 @@ function App() {
   // Contador animado
   useEffect(() => {
     const counters = document.querySelectorAll('.counter')
-    const speed = 400
+    const speed = 600
 
     const animateCounter = (counter: Element) => {
       const target = parseInt(counter.getAttribute('data-target') || '0')
@@ -24,7 +24,7 @@ function App() {
 
       if (count < target) {
         counter.textContent = Math.ceil(count + increment).toString()
-        setTimeout(() => animateCounter(counter), 1)
+        setTimeout(() => animateCounter(counter), 10)
       } else {
         counter.textContent = target.toString()
       }
