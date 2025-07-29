@@ -212,41 +212,53 @@ function App() {
           
           {/* Características Destacadas */}
           <div className="flex justify-center">
-            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 max-w-2xl">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 max-w-4xl">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 highlight-bg rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-headline">100% Confidencial</h4>
-                    <p className="text-paragraph text-xs">Tu información segura</p>
+                    <h4 className="text-sm font-bold text-headline">Reseñas 100% verificadas</h4>
+                    <p className="text-paragraph text-xs">Usuarios reales con cuentas activas y comportamiento natural</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 highlight-bg rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-bold text-headline">Resultados Inmediatos</h4>
-                    <p className="text-paragraph text-xs">Desde el primer día</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 highlight-bg rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-headline">Negocios Locales</h4>
-                    <p className="text-paragraph text-xs">Enfoque especializado</p>
+                    <h4 className="text-sm font-bold text-headline">Posicionamiento local</h4>
+                    <p className="text-paragraph text-xs">Aparece más arriba en Google Maps y búsquedas locales</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">Contenido estratégico</h4>
+                    <p className="text-paragraph text-xs">Palabras clave específicas para mejorar tu SEO local</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">Resultados visibles</h4>
+                    <p className="text-paragraph text-xs">Mejora tu puntuación promedio desde el primer día</p>
                   </div>
                 </div>
               </div>
@@ -427,7 +439,6 @@ function App() {
                 <h3 className="text-2xl font-bold text-headline mb-2">Pack Mini</h3>
                 <div className="text-4xl font-bold highlight mb-2">35€</div>
                 <p className="text-paragraph">10 reseñas</p>
-                <p className="text-sm text-success font-semibold">(10% de descuento)</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
