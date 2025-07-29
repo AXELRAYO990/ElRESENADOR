@@ -163,61 +163,83 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-headline mb-4">Nuestros Servicios</h2>
-            <p className="text-xl text-paragraph max-w-3xl mx-auto">
-              Especialistas en reseñas verificadas para negocios locales que quieren destacar en Google
+            <p className="text-xl text-paragraph max-w-4xl mx-auto leading-relaxed">
+              En El Reseñador nos especializamos en ayudar a negocios locales a mejorar su reputación online mediante reseñas auténticas, verificadas y estratégicamente optimizadas para posicionarse mejor en Google Maps y búsquedas locales.
             </p>
           </div>
           
+          <div className="text-center mb-12">
+            <h3 className="text-2xl font-bold text-headline mb-8">¿Qué incluye nuestro servicio?</h3>
+          </div>
+          
+          <div className="grid lg:grid-cols-3 gap-8 mb-16">
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 h-full flex flex-col">
+              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-headline mb-4">Generación de Reseñas Verificadas</h3>
+              <p className="text-paragraph leading-relaxed flex-grow">
+                Obtenemos reseñas de usuarios reales con verificación completa en Google, lo que mejora tu calificación promedio y genera mayor confianza en tus potenciales clientes.
+              </p>
+            </div>
+            
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 h-full flex flex-col">
+              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-headline mb-4">Paquetes Estratégicos de Reseñas</h3>
+              <p className="text-paragraph leading-relaxed flex-grow">
+                Ofrecemos paquetes únicos que se adaptan a las necesidades de tu negocio. Pagas una sola vez y obtienes resultados desde el primer día.
+              </p>
+            </div>
+            
+            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 h-full flex flex-col">
+              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-headline mb-4">Reseñas con Palabras Clave Locales</h3>
+              <p className="text-paragraph leading-relaxed flex-grow">
+                Cada reseña está redactada estratégicamente con palabras clave específicas y menciones de tus productos o servicios, lo que fortalece tu SEO local y aumenta tu visibilidad en búsquedas relevantes.
+              </p>
+            </div>
+          </div>
+          
+          {/* Características Destacadas */}
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="glass-card p-8 rounded-xl hover-elegant">
-              <div className="w-16 h-16 icon-elegant rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+            <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 text-center">
+              <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center mb-4 mx-auto">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gradient mb-4">Reseñas Verificadas en Google</h3>
-              <p className="text-paragraph mb-6">
-                Generamos reseñas auténticas y verificadas que mejoran tu reputación y posicionamiento en Google Maps.
-              </p>
-              <ul className="text-paragraph space-y-2">
-                <li>• Reseñas de usuarios reales</li>
-                <li>• Verificación completa en Google</li>
-                <li>• Mejora de calificación promedio</li>
-              </ul>
+              <h4 className="text-lg font-bold text-headline mb-2">100% Confidencial</h4>
+              <p className="text-paragraph text-sm">Tu información y estrategia se mantienen completamente seguras</p>
             </div>
-
-            <div className="glass-card p-8 rounded-xl hover-elegant">
-              <div className="w-16 h-16 icon-elegant rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            
+            <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 text-center">
+              <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center mb-4 mx-auto">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gradient mb-4">Paquetes de Reseñas</h3>
-              <p className="text-paragraph mb-6">
-                Paquetes únicos con reseñas estratégicas para mejorar tu reputación online de forma inmediata.
-              </p>
-              <ul className="text-paragraph space-y-2">
-                <li>• Reseñas verificadas</li>
-                <li>• Pago único</li>
-                <li>• Resultados inmediatos</li>
-              </ul>
+              <h4 className="text-lg font-bold text-headline mb-2">Resultados Inmediatos</h4>
+              <p className="text-paragraph text-sm">Empiezas a ver mejoras desde las primeras reseñas</p>
             </div>
-
-            <div className="glass-card p-8 rounded-xl hover-elegant">
-              <div className="w-16 h-16 icon-elegant rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4V2a1 1 0 011-1h4a1 1 0 011 1v2m4 0V2a1 1 0 011-1h2a1 1 0 011 1v2m-7 0h.01M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            
+            <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300 text-center">
+              <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center mb-4 mx-auto">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gradient mb-4">Reseñas con Keywords</h3>
-              <p className="text-paragraph mb-6">
-                Reseñas estratégicas que incluyen palabras clave específicas para mejorar tu posicionamiento local.
-              </p>
-              <ul className="text-paragraph space-y-2">
-                <li>• Keywords específicas</li>
-                <li>• Nombres de productos/servicios</li>
-                <li>• Mejora de SEO local</li>
-              </ul>
+              <h4 className="text-lg font-bold text-headline mb-2">Enfocado en Negocios Locales</h4>
+              <p className="text-paragraph text-sm">Especialistas en mejorar tu visibilidad local</p>
             </div>
           </div>
         </div>
