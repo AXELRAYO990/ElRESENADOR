@@ -66,7 +66,7 @@ function App() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#servicios" className="hover:text-gray-300 transition-colors nav-link-elegant">Servicios</a>
+              <a href="#servicios" className="hover:text-gray-300 transition-colors nav-link-elegant">Servicio</a>
               <a href="#nosotros" className="hover:text-gray-300 transition-colors nav-link-elegant">Nosotros</a>
               <a href="#precios" className="hover:text-gray-300 transition-colors nav-link-elegant">Precios</a>
               <a href="#contacto" className="hover:text-gray-300 transition-colors nav-link-elegant">Contacto</a>
@@ -162,7 +162,7 @@ function App() {
       <section id="servicios" className="py-20 bg-primary-dark">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-headline mb-4">Nuestros Servicios</h2>
+            <h2 className="text-4xl font-bold text-headline mb-4">Nuestros Servicio</h2>
             <p className="text-xl text-paragraph max-w-4xl mx-auto leading-relaxed">
               Especialistas en reseñas verificadas para negocios locales
             </p>
@@ -680,10 +680,10 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Servicios</h3>
               <ul className="space-y-2 text-paragraph">
-                <li><a href="#servicios" className="hover:text-headline transition-colors">Reseñas Verificadas</a></li>
-                <li><a href="#precios" className="hover:text-headline transition-colors">Paquetes de Reseñas</a></li>
-                <li><a href="#servicios" className="hover:text-headline transition-colors">Reseñas con Keywords</a></li>
-                <li><a href="#servicios" className="hover:text-headline transition-colors">Reportes Mensuales</a></li>
+                <li><a href="#servicios" className="hover:text-headline transition-colors">Servicio</a></li>
+                <li><a href="#nosotros" className="hover:text-headline transition-colors">Nosotros</a></li>
+                <li><a href="#precios" className="hover:text-headline transition-colors">Precios</a></li>
+                <li><a href="#contacto" className="hover:text-headline transition-colors">Contacto</a></li>
               </ul>
             </div>
             
@@ -705,12 +705,7 @@ function App() {
                   </svg>
                   +34 632 42 57 71
                 </li>
-                <li className="flex items-center">
-                  <svg className="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"/>
-                  </svg>
-                  Ciudad de México, México
-                </li>
+                
               </ul>
             </div>
             
