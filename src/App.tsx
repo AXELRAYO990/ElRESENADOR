@@ -345,53 +345,61 @@ function App() {
             </div>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
-              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-                </svg>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">Reseñas 100% verificadas</h4>
+                    <p className="text-paragraph text-xs">Usuarios reales con cuentas activas</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">Posicionamiento local</h4>
+                    <p className="text-paragraph text-xs">Aparece más arriba en Google Maps</p>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-headline mb-4 text-center">Reseñas 100% verificadas</h3>
-              <p className="text-paragraph text-center leading-relaxed">
-                Usuarios reales con cuentas activas
-              </p>
             </div>
             
             <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
-              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                </svg>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">Contenido estratégico</h4>
+                    <p className="text-paragraph text-xs">Palabras clave para mejorar tu SEO</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-headline">Resultados visibles</h4>
+                    <p className="text-paragraph text-xs">Mejora tu puntuación promedio</p>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-headline mb-4 text-center">Posicionamiento local mejorado</h3>
-              <p className="text-paragraph text-center leading-relaxed">
-                Aparece más arriba en Google Maps
-              </p>
-            </div>
-            
-            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
-              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-headline mb-4 text-center">Contenido estratégico</h3>
-              <p className="text-paragraph text-center leading-relaxed">
-                Palabras clave para mejorar tu SEO
-              </p>
-            </div>
-            
-            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
-              <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-headline mb-4 text-center">Resultados visibles</h3>
-              <p className="text-paragraph text-center leading-relaxed">
-                Mejora tu puntuación promedio
-              </p>
             </div>
           </div>
           
