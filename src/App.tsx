@@ -15,7 +15,7 @@ function App() {
   // Contador animado
   useEffect(() => {
     const counters = document.querySelectorAll('.counter')
-    const speed = 200
+    const speed = 400
 
     const animateCounter = (counter: Element) => {
       const target = parseInt(counter.getAttribute('data-target') || '0')
@@ -176,7 +176,7 @@ function App() {
             <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 h-full flex flex-col items-center text-center">
               <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-headline mb-4">Generación de Reseñas Verificadas</h3>
@@ -200,7 +200,7 @@ function App() {
             <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 h-full flex flex-col items-center text-center">
               <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+                  <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clipRule="evenodd" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-headline mb-4">Reseñas con Palabras Clave Locales</h3>
