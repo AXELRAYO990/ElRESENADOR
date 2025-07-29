@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
 function App() {
@@ -271,57 +271,61 @@ function App() {
           
           {/* Estadísticas Animadas */}
           <div className="text-center my-20">
-            <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
-                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+            <div className="flex flex-wrap justify-center items-center gap-6 max-w-6xl mx-auto">
+              <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 flex items-center space-x-4 min-w-[280px]">
+                <div className="w-14 h-14 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                   </svg>
                 </div>
-                <div className="text-4xl font-bold text-headline mb-2">
-                  <span className="counter" data-target="300">0</span>+
+                <div className="text-left">
+                  <div className="text-3xl font-bold text-headline">
+                    <span className="counter" data-target="300">0</span>+
+                  </div>
+                  <h3 className="text-lg font-semibold text-headline">Clientes Satisfechos</h3>
                 </div>
-                <h3 className="text-xl font-bold text-headline mb-2">Clientes Satisfechos</h3>
-                <p className="text-paragraph">100% Garantizado</p>
               </div>
               
-              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
-                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 flex items-center space-x-4 min-w-[280px]">
+                <div className="w-14 h-14 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
                   </svg>
                 </div>
-                <div className="text-4xl font-bold text-headline mb-2">
-                  <span className="counter" data-target="1500">0</span>+
+                <div className="text-left">
+                  <div className="text-3xl font-bold text-headline">
+                    <span className="counter" data-target="1500">0</span>+
+                  </div>
+                  <h3 className="text-lg font-semibold text-headline">Reseñas Generadas</h3>
                 </div>
-                <h3 className="text-xl font-bold text-headline mb-2">Reseñas Generadas</h3>
-                <p className="text-paragraph">Verificadas y Auténticas</p>
               </div>
               
-              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
-                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 flex items-center space-x-4 min-w-[280px]">
+                <div className="w-14 h-14 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
                   </svg>
                 </div>
-                <div className="text-4xl font-bold text-headline mb-2">
-                  <span className="counter" data-target="50">0</span>+
+                <div className="text-left">
+                  <div className="text-3xl font-bold text-headline">
+                    <span className="counter" data-target="50">0</span>+
+                  </div>
+                  <h3 className="text-lg font-semibold text-headline">Ciudades Atendidas</h3>
                 </div>
-                <h3 className="text-xl font-bold text-headline mb-2">Ciudades Atendidas</h3>
-                <p className="text-paragraph">Cobertura Nacional</p>
               </div>
               
-              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
-                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center mb-6 mx-auto">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 flex items-center space-x-4 min-w-[280px]">
+                <div className="w-14 h-14 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                   </svg>
                 </div>
-                <div className="text-4xl font-bold text-headline mb-2">
-                  <span className="counter" data-target="98">0</span>%
+                <div className="text-left">
+                  <div className="text-3xl font-bold text-headline">
+                    <span className="counter" data-target="98">0</span>%
+                  </div>
+                  <h3 className="text-lg font-semibold text-headline">Tasa de Éxito</h3>
                 </div>
-                <h3 className="text-xl font-bold text-headline mb-2">Tasa de Éxito</h3>
-                <p className="text-paragraph">Resultados Comprobados</p>
               </div>
             </div>
           </div>
