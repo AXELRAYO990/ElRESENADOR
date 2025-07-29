@@ -549,8 +549,8 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4">Teléfono</h3>
               <p className="text-paragraph mb-4">Llámanos directamente</p>
-              <a href="tel:+525512345678" className="text-success hover:text-headline transition-colors">
-                +52 (55) 1234-5678
+              <a href="tel:+34632425771" className="text-success hover:text-headline transition-colors">
+                +34 632 42 57 71
               </a>
             </div>
             
@@ -624,7 +624,7 @@ function App() {
                   <svg className="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                   </svg>
-                  +52 (55) 1234-5678
+                  +34 632 42 57 71
                 </li>
                 <li className="flex items-center">
                   <svg className="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
@@ -658,7 +658,7 @@ function App() {
           </div>
           
           <div className="border-t border-subtle mt-8 pt-8 text-center text-paragraph">
-            <p>&copy; 2024 EL RESEÑADOR. Todos los derechos reservados.</p>
+            <p>&copy; 2023 EL RESEÑADOR. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
