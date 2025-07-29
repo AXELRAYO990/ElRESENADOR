@@ -99,7 +99,7 @@ function App() {
                 className="block py-2 px-4 rounded-lg hover:bg-white/10 transition-colors nav-link-elegant"
                 onClick={closeMenu}
               >
-                Servicios
+                Servicio
               </a>
               <a 
                 href="#nosotros" 
@@ -151,7 +151,7 @@ function App() {
             </p>
                                     <div className="flex justify-center">
                           <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20reseña%20gratuita%20para%20mejorar%20mi%20reputación%20online%20en%20Google.%20¿Podrían%20ayudarme%20con%20más%20información%20sobre%20sus%20servicios?" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center flex items-center justify-center">
-                          reseña gratuita
+                          Reseña gratuita
                           </a>
                         </div>
           </div>
@@ -316,20 +316,6 @@ function App() {
                     <span className="counter" data-target="1500">0</span>+
                   </div>
                   <h3 className="text-lg font-semibold text-headline">Reseñas Generadas</h3>
-                </div>
-              </div>
-              
-              <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 flex items-center space-x-4 min-w-[280px]">
-                <div className="w-14 h-14 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
-                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
-                  </svg>
-                </div>
-                <div className="text-left">
-                  <div className="text-3xl font-bold text-headline">
-                    <span className="counter" data-target="50">0</span>+
-                  </div>
-                  <h3 className="text-lg font-semibold text-headline">Ciudades Atendidas</h3>
                 </div>
               </div>
               
