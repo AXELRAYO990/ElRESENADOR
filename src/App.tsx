@@ -1,26 +1,99 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div className="min-h-screen bg-primary-dark">
-                        {/* Header/Navigation */}
-                  <header className="fixed top-0 left-0 right-0 z-50 bg-nav-dark/95 backdrop-blur-md text-white border-b border-subtle">
-                    <nav className="container mx-auto px-6 py-4">
+      {/* Header/Navigation */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-nav-dark/95 backdrop-blur-md text-white border-b border-subtle">
+        <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
+            {/* Logo and Brand */}
             <div className="flex items-center space-x-3 logo-container">
-                              <img src="/logor.png" alt="EL RESEÑADOR" className="h-12 w-auto rounded-full float-animation" />
-              <span className="text-xl font-bold text-shadow-elegant">EL RESEÑADOR</span>
+              <img src="/logor.png" alt="EL RESEÑADOR" className="h-8 md:h-12 w-auto rounded-full float-animation" />
+              <span className="text-lg md:text-xl font-bold text-shadow-elegant">EL RESEÑADOR</span>
             </div>
-                                    <div className="hidden md:flex space-x-8">
-                          <a href="#servicios" className="hover:text-gray-300 transition-colors nav-link-elegant">Servicios</a>
-                          <a href="#precios" className="hover:text-gray-300 transition-colors nav-link-elegant">Precios</a>
-                          <a href="#nosotros" className="hover:text-gray-300 transition-colors nav-link-elegant">Nosotros</a>
-                          <a href="#contacto" className="hover:text-gray-300 transition-colors nav-link-elegant">Contacto</a>
-                        </div>
-            <button className="btn-elegant px-6 py-2 font-semibold">
-              Consulta Gratuita
+
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center space-x-8">
+              <a href="#servicios" className="hover:text-gray-300 transition-colors nav-link-elegant">Servicios</a>
+              <a href="#precios" className="hover:text-gray-300 transition-colors nav-link-elegant">Precios</a>
+              <a href="#nosotros" className="hover:text-gray-300 transition-colors nav-link-elegant">Nosotros</a>
+              <a href="#contacto" className="hover:text-gray-300 transition-colors nav-link-elegant">Contacto</a>
+            </div>
+
+            {/* Desktop CTA Button */}
+            <div className="hidden md:block">
+              <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant px-6 py-2 font-semibold">
+                Consulta Gratuita
+              </a>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button 
+              className="md:hidden flex flex-col space-y-1 p-2 rounded-lg hover:bg-white/10 transition-colors"
+              onClick={toggleMenu}
+              aria-label="Toggle menu"
+            >
+              <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
+              <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+              <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
             </button>
+          </div>
+
+          {/* Mobile Navigation Menu */}
+          <div className={`md:hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden`}>
+            <div className="py-4 space-y-4 border-t border-subtle mt-4">
+              <a 
+                href="#servicios" 
+                className="block py-2 px-4 rounded-lg hover:bg-white/10 transition-colors nav-link-elegant"
+                onClick={closeMenu}
+              >
+                Servicios
+              </a>
+              <a 
+                href="#precios" 
+                className="block py-2 px-4 rounded-lg hover:bg-white/10 transition-colors nav-link-elegant"
+                onClick={closeMenu}
+              >
+                Precios
+              </a>
+              <a 
+                href="#nosotros" 
+                className="block py-2 px-4 rounded-lg hover:bg-white/10 transition-colors nav-link-elegant"
+                onClick={closeMenu}
+              >
+                Nosotros
+              </a>
+              <a 
+                href="#contacto" 
+                className="block py-2 px-4 rounded-lg hover:bg-white/10 transition-colors nav-link-elegant"
+                onClick={closeMenu}
+              >
+                Contacto
+              </a>
+              <div className="pt-4 border-t border-subtle">
+                <a 
+                  href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn-elegant w-full text-center py-3 font-semibold block"
+                  onClick={closeMenu}
+                >
+                  Consulta Gratuita
+                </a>
+              </div>
+            </div>
           </div>
         </nav>
       </header>
