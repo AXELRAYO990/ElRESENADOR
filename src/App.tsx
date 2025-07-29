@@ -35,7 +35,7 @@ function App() {
             {/* Desktop CTA Button */}
             <div className="hidden md:block">
               <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20consulta%20gratuita%20para%20mejorar%20mi%20reputación%20online" target="_blank" rel="noopener noreferrer" className="btn-elegant px-6 py-2 font-semibold">
-                Consulta Gratuita
+              Reseña Gratuita
               </a>
             </div>
 
@@ -238,8 +238,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4 text-center">Reseñas 100% verificadas</h3>
               <p className="text-paragraph text-center leading-relaxed">
-                Todas las reseñas provienen de usuarios reales, con cuentas activas y comportamiento natural, 
-                para garantizar autenticidad y evitar sanciones.
+                Usuarios reales con cuentas activas. Garantizamos autenticidad y evitamos sanciones.
               </p>
             </div>
             
@@ -251,8 +250,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4 text-center">Posicionamiento local mejorado</h3>
               <p className="text-paragraph text-center leading-relaxed">
-                Las reseñas ayudan a que tu negocio aparezca más arriba en las búsquedas locales de Google Maps 
-                y aumente su visibilidad.
+                Aparece más arriba en Google Maps y aumenta tu visibilidad local.
               </p>
             </div>
             
@@ -264,8 +262,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4 text-center">Contenido estratégico</h3>
               <p className="text-paragraph text-center leading-relaxed">
-                Podemos incluir palabras clave, nombres de productos o servicios específicos para reforzar 
-                tu SEO local y captar al cliente ideal.
+                Incluimos palabras clave específicas para mejorar tu SEO local.
               </p>
             </div>
             
@@ -277,8 +274,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-headline mb-4 text-center">Resultados visibles</h3>
               <p className="text-paragraph text-center leading-relaxed">
-                Desde las primeras reseñas verás una mejora en tu puntuación promedio y más interacción 
-                en tu perfil.
+                Mejora tu puntuación promedio desde las primeras reseñas.
               </p>
             </div>
           </div>
