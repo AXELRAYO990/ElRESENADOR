@@ -9,7 +9,7 @@ function App() {
                     <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3 logo-container">
-              <img src="/El_Resenador.png" alt="EL RESEÑADOR" className="h-12 w-auto rounded-full float-animation" />
+                              <img src="/logor.png" alt="EL RESEÑADOR" className="h-12 w-auto rounded-full float-animation" />
               <span className="text-xl font-bold text-shadow-elegant">EL RESEÑADOR</span>
             </div>
                                     <div className="hidden md:flex space-x-8">
@@ -396,7 +396,7 @@ function App() {
               </div>
             </div>
             <div className="relative">
-              <img src="/El_Resenador.png" alt="EL RESEÑADOR" className="w-full max-w-md mx-auto" />
+              <img src="/logor.png" alt="EL RESEÑADOR" className="w-full max-w-md mx-auto" />
             </div>
           </div>
         </div>
@@ -491,7 +491,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
                           <div className="flex items-center space-x-3 mb-4 logo-container">
-              <img src="/El_Resenador.png" alt="EL RESEÑADOR" className="h-8 w-auto rounded-full" />
+                              <img src="/logor.png" alt="EL RESEÑADOR" className="h-8 w-auto rounded-full" />
               <span className="text-xl font-bold">EL RESEÑADOR</span>
             </div>
               <p className="text-paragraph">
