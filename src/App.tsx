@@ -162,7 +162,7 @@ function App() {
       <section id="servicios" className="py-20 bg-primary-dark">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-headline mb-4">Nuestros Servicio</h2>
+            <h2 className="text-4xl font-bold text-headline mb-4">Nuestro Servicio</h2>
             <p className="text-xl text-paragraph max-w-4xl mx-auto leading-relaxed">
               Especialistas en reseñas verificadas para negocios locales
             </p>
@@ -179,7 +179,7 @@ function App() {
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-headline mb-4">Generación de Reseñas Verificadas</h3>
+              <h3 className="text-xl font-bold text-headline mb-4">Reseñas Verificadas</h3>
               <p className="text-paragraph leading-relaxed flex-grow">
                 Reseñas de usuarios reales verificadas en Google
               </p>
@@ -327,7 +327,7 @@ function App() {
                   <div className="text-3xl font-bold text-headline">
                     <span className="counter" data-target="1500">0</span>+
                   </div>
-                  <h3 className="text-lg font-semibold text-headline">Reseñas Generadas</h3>
+                  <h3 className="text-lg font-semibold text-headline">Reseñas</h3>
                 </div>
               </div>
               
@@ -680,8 +680,8 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Servicios</h3>
               <ul className="space-y-2 text-paragraph">
-                <li><a href="#servicios" className="hover:text-headline transition-colors">Servicio</a></li>
-                <li><a href="#nosotros" className="hover:text-headline transition-colors">Nosotros</a></li>
+                <li><a href="#servicios" className="hover:text-headline transition-colors">Nuestro Servicios</a></li>
+                <li><a href="#nosotros" className="hover:text-headline transition-colors">¿Por qué elegirnos?</a></li>
                 <li><a href="#precios" className="hover:text-headline transition-colors">Precios</a></li>
                 <li><a href="#contacto" className="hover:text-headline transition-colors">Contacto</a></li>
               </ul>
@@ -713,7 +713,43 @@ function App() {
           </div>
           
           <div className="border-t border-subtle mt-8 pt-8 text-center text-paragraph">
-            <p>&copy; 2023 EL RESEÑADOR. Todos los derechos reservados.</p>
+            <p className="mb-4">&copy; 2023 EL RESEÑADOR. Todos los derechos reservados.</p>
+            
+            {/* Documentos Legales */}
+            <div className="flex flex-wrap justify-center gap-4 text-sm">
+              <a 
+                href="/🔒 POLÍTICA DE PRIVACIDAD.pdf" 
+                download="Politica_Privacidad_EL_RESENADOR.pdf"
+                className="hover:text-headline transition-colors flex items-center"
+              >
+                <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd"/>
+                </svg>
+                Política de Privacidad
+              </a>
+              
+              <a 
+                href="/📌 AVISO LEGAL.pdf" 
+                download="Aviso_Legal_EL_RESENADOR.pdf"
+                className="hover:text-headline transition-colors flex items-center"
+              >
+                <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd"/>
+                </svg>
+                Aviso Legal
+              </a>
+              
+              <a 
+                href="/📄 TÉRMINOS Y CONDICIONES PARA USUARIOS.pdf" 
+                download="Terminos_Condiciones_EL_RESENADOR.pdf"
+                className="hover:text-headline transition-colors flex items-center"
+              >
+                <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd"/>
+                </svg>
+                Términos y Condiciones
+              </a>
+            </div>
           </div>
         </div>
       </footer>
