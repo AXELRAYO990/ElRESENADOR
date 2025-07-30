@@ -740,7 +740,7 @@ function App() {
               </a>
               
               <a 
-                href="/TÉRMINOSyCONDICIONES.pdf" 
+                href="/ TÉRMINOSyCONDICIONES.pdf" 
                 download="Terminos_Condiciones_EL_RESENADOR.pdf"
                 className="hover:text-headline transition-colors flex items-center"
               >
