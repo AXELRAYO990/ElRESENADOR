@@ -718,7 +718,7 @@ function App() {
             {/* Documentos Legales */}
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <a 
-                href="/🔒 POLÍTICA DE PRIVACIDAD.pdf" 
+                href="/POLÍTICADEPRIVACIDAD.pdf" 
                 download="Politica_Privacidad_EL_RESENADOR.pdf"
                 className="hover:text-headline transition-colors flex items-center"
               >
@@ -729,7 +729,7 @@ function App() {
               </a>
               
               <a 
-                href="/📌 AVISO LEGAL.pdf" 
+                href="/AVISOLEGAL.pdf" 
                 download="Aviso_Legal_EL_RESENADOR.pdf"
                 className="hover:text-headline transition-colors flex items-center"
               >
@@ -740,7 +740,7 @@ function App() {
               </a>
               
               <a 
-                href="/📄 TÉRMINOS Y CONDICIONES PARA USUARIOS.pdf" 
+                href="/TÉRMINOSyCONDICIONES.pdf" 
                 download="Terminos_Condiciones_EL_RESENADOR.pdf"
                 className="hover:text-headline transition-colors flex items-center"
               >
