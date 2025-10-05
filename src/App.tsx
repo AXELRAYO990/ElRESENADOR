@@ -371,7 +371,7 @@ function App() {
           </div>
           
           {/* Estadísticas Animadas */}
-          <div className="text-center my-20">
+          <div className="text-center mb-12">
             <div className="flex flex-wrap justify-center items-center gap-6 max-w-6xl mx-auto">
               <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 flex items-center space-x-4 min-w-[280px]">
                 <div className="w-14 h-14 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
@@ -402,11 +402,6 @@ function App() {
               </div>
             </div>
           </div>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            
-          </div>
-          
 
         </div>
       </section>
