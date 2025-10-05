@@ -658,13 +658,13 @@ function App() {
             <div className="glass-card rounded-xl overflow-hidden">
               <button
                 onClick={() => toggleFAQ(0)}
-                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300"
+                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300 hover:bg-white/5 active:scale-[0.98]"
               >
                 <h3 className="text-lg font-semibold text-headline">
                   ¿Son las reseñas genuinas y cumplen con la legalidad de Google?
                 </h3>
                 <svg 
-                  className={`w-5 h-5 text-headline transition-transform duration-300 ${openFAQ === 0 ? 'rotate-180' : ''}`} 
+                  className={`w-5 h-5 text-headline transition-all duration-500 ease-in-out ${openFAQ === 0 ? 'rotate-180 scale-110' : 'rotate-0 scale-100'}`} 
                   fill="none" 
                   stroke="currentColor" 
                   viewBox="0 0 24 24"
@@ -672,26 +672,26 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              {openFAQ === 0 && (
-                <div className="px-6 pb-6">
-                  <p className="text-paragraph leading-relaxed">
+              <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openFAQ === 0 ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className="px-6 pb-6 pt-2">
+                  <p className="text-paragraph leading-relaxed transform transition-all duration-300 delay-100">
                     Sí. Garantizamos la autenticidad y legalidad. Todas las reseñas son publicadas por usuarios reales con perfiles verificados y respetan estrictamente todas las políticas y directrices de Google.
                   </p>
                 </div>
-              )}
+              </div>
             </div>
 
             {/* FAQ Item 2 */}
             <div className="glass-card rounded-xl overflow-hidden">
               <button
                 onClick={() => toggleFAQ(1)}
-                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300"
+                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300 hover:bg-white/5 active:scale-[0.98]"
               >
                 <h3 className="text-lg font-semibold text-headline">
                   ¿Qué información se requiere para crear reseñas hechas a mi medida?
                 </h3>
                 <svg 
-                  className={`w-5 h-5 text-headline transition-transform duration-300 ${openFAQ === 1 ? 'rotate-180' : ''}`} 
+                  className={`w-5 h-5 text-headline transition-all duration-500 ease-in-out ${openFAQ === 1 ? 'rotate-180 scale-110' : 'rotate-0 scale-100'}`} 
                   fill="none" 
                   stroke="currentColor" 
                   viewBox="0 0 24 24"
@@ -699,26 +699,26 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              {openFAQ === 1 && (
-                <div className="px-6 pb-6">
-                  <p className="text-paragraph leading-relaxed">
+              <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openFAQ === 1 ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className="px-6 pb-6 pt-2">
+                  <p className="text-paragraph leading-relaxed transform transition-all duration-300 delay-100">
                     Solo necesitamos dos cosas: la dirección física del negocio y una descripción detallada de cómo es (sus puntos fuertes, sector, ambiente, etc.). Con esta información, redactamos reseñas totalmente personalizadas.
                   </p>
                 </div>
-              )}
+              </div>
             </div>
 
             {/* FAQ Item 3 */}
             <div className="glass-card rounded-xl overflow-hidden">
               <button
                 onClick={() => toggleFAQ(2)}
-                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300"
+                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300 hover:bg-white/5 active:scale-[0.98]"
               >
                 <h3 className="text-lg font-semibold text-headline">
                   ¿Puedo revisar y aprobar el contenido antes de la publicación?
                 </h3>
                 <svg 
-                  className={`w-5 h-5 text-headline transition-transform duration-300 ${openFAQ === 2 ? 'rotate-180' : ''}`} 
+                  className={`w-5 h-5 text-headline transition-all duration-500 ease-in-out ${openFAQ === 2 ? 'rotate-180 scale-110' : 'rotate-0 scale-100'}`} 
                   fill="none" 
                   stroke="currentColor" 
                   viewBox="0 0 24 24"
@@ -726,26 +726,26 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              {openFAQ === 2 && (
-                <div className="px-6 pb-6">
-                  <p className="text-paragraph leading-relaxed">
+              <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openFAQ === 2 ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className="px-6 pb-6 pt-2">
+                  <p className="text-paragraph leading-relaxed transform transition-all duration-300 delay-100">
                     Por supuesto. Te enviaremos ejemplos de las reseñas basadas en tu descripción para que las revises. Podrás sugerir ajustes para garantizar que el tono sea natural y refleje fielmente tu negocio.
                   </p>
                 </div>
-              )}
+              </div>
             </div>
 
             {/* FAQ Item 4 */}
             <div className="glass-card rounded-xl overflow-hidden">
               <button
                 onClick={() => toggleFAQ(3)}
-                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300"
+                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300 hover:bg-white/5 active:scale-[0.98]"
               >
                 <h3 className="text-lg font-semibold text-headline">
                   ¿Existe algún riesgo de penalización o sanción por parte de Google?
                 </h3>
                 <svg 
-                  className={`w-5 h-5 text-headline transition-transform duration-300 ${openFAQ === 3 ? 'rotate-180' : ''}`} 
+                  className={`w-5 h-5 text-headline transition-all duration-500 ease-in-out ${openFAQ === 3 ? 'rotate-180 scale-110' : 'rotate-0 scale-100'}`} 
                   fill="none" 
                   stroke="currentColor" 
                   viewBox="0 0 24 24"
@@ -753,26 +753,26 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              {openFAQ === 3 && (
-                <div className="px-6 pb-6">
-                  <p className="text-paragraph leading-relaxed">
+              <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openFAQ === 3 ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className="px-6 pb-6 pt-2">
+                  <p className="text-paragraph leading-relaxed transform transition-all duration-300 delay-100">
                     No, el riesgo es nulo. Empleamos una estrategia 100% orgánica y segura, utilizando perfiles legítimos y publicando las reseñas de forma escalonada para imitar el comportamiento natural de los clientes, cumpliendo siempre con la normativa.
                   </p>
                 </div>
-              )}
+              </div>
             </div>
 
             {/* FAQ Item 5 */}
             <div className="glass-card rounded-xl overflow-hidden">
               <button
                 onClick={() => toggleFAQ(4)}
-                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300"
+                className="w-full p-6 text-left flex justify-between items-center hover-elegant transition-all duration-300 hover:bg-white/5 active:scale-[0.98]"
               >
                 <h3 className="text-lg font-semibold text-headline">
                   ¿Qué incluye el pago y cuáles son los métodos de pago?
                 </h3>
                 <svg 
-                  className={`w-5 h-5 text-headline transition-transform duration-300 ${openFAQ === 4 ? 'rotate-180' : ''}`} 
+                  className={`w-5 h-5 text-headline transition-all duration-500 ease-in-out ${openFAQ === 4 ? 'rotate-180 scale-110' : 'rotate-0 scale-100'}`} 
                   fill="none" 
                   stroke="currentColor" 
                   viewBox="0 0 24 24"
@@ -780,13 +780,13 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
         </button>
-              {openFAQ === 4 && (
-                <div className="px-6 pb-6">
-                  <p className="text-paragraph leading-relaxed">
+              <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openFAQ === 4 ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className="px-6 pb-6 pt-2">
+                  <p className="text-paragraph leading-relaxed transform transition-all duration-300 delay-100">
                     El pago se realiza de forma segura mediante Bizum o tarjeta bancaria. El coste cubre la gestión integral del servicio: desde la redacción personalizada del contenido hasta la planificación y publicación estratégica de las reseñas.
                   </p>
                 </div>
-              )}
+              </div>
             </div>
           </div>
         </div>
