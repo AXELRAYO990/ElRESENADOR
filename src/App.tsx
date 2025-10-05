@@ -233,7 +233,7 @@ function App() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-headline">Resultados Inmediatos</h4>
+                    <h4 className="text-sm font-bold text-headline">Resultados Garantizados</h4>
                     <p className="text-paragraph text-xs">Desde el primer día</p>
                   </div>
                 </div>
@@ -311,20 +311,6 @@ function App() {
               <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 flex items-center space-x-4 min-w-[280px]">
                 <div className="w-14 h-14 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
                   <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
-                  </svg>
-                </div>
-                <div className="text-left">
-                  <div className="text-3xl font-bold text-headline">
-                    <span className="counter" data-target="1500">0</span>+
-                  </div>
-                  <h3 className="text-lg font-semibold text-headline">Reseñas</h3>
-                </div>
-              </div>
-              
-              <div className="glass-card p-6 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300 flex items-center space-x-4 min-w-[280px]">
-                <div className="w-14 h-14 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
-                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                   </svg>
                 </div>
@@ -364,36 +350,21 @@ function App() {
                     <p className="text-paragraph text-xs">Aparece más arriba en Google Maps</p>
                   </div>
                 </div>
-              </div>
-            </div>
-            
-            <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <div>
+      <div>
                     <h4 className="text-sm font-bold text-headline">Contenido estratégico</h4>
                     <p className="text-paragraph text-xs">Palabras clave para mejorar tu SEO</p>
                   </div>
                 </div>
-                
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 highlight-bg rounded-xl flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-bold text-headline">Resultados visibles</h4>
-                    <p className="text-paragraph text-xs">Mejora tu puntuación promedio</p>
-                  </div>
-                </div>
               </div>
             </div>
+            
           </div>
           
 
@@ -452,6 +423,18 @@ function App() {
                   </svg>
                   Privacidad garantizada
                 </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Entrega en un máximo de 7 días
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Garantía de 15 días después de que complete el pedido
+                </li>
               </ul>
               <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Mini de 10 reseñas por 35€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
                 Seleccionar Pack Mini
@@ -504,6 +487,18 @@ function App() {
                   </svg>
                   Privacidad garantizada
                 </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Entrega en un máximo de 7 días
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Garantía de 15 días después de que complete el pedido
+                </li>
               </ul>
               <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Pro de 25 reseñas por 75€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
                 Seleccionar Pack Pro
@@ -552,6 +547,18 @@ function App() {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   Privacidad garantizada
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Entrega en un máximo de 7 días
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Garantía de 15 días después de que complete el pedido
                 </li>
               </ul>
               <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Avanzado de 50 reseñas por 140€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
@@ -602,11 +609,23 @@ function App() {
                   </svg>
                   Privacidad garantizada
                 </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Entrega en un máximo de 7 días
+                </li>
+                <li className="flex items-center">
+                  <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Garantía de 15 días después de que complete el pedido
+                </li>
               </ul>
               <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Premium de 100 reseñas por 275€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
                 Seleccionar Pack Premium
-              </a>
-            </div>
+        </a>
+      </div>
           </div>
         </div>
       </section>
@@ -620,8 +639,8 @@ function App() {
             <h2 className="text-4xl font-bold text-headline mb-4">Contáctanos</h2>
             <p className="text-xl text-paragraph max-w-3xl mx-auto">
               Estamos aquí para ayudarte a mejorar la reputación de tu negocio. Contáctanos para una consulta gratuita.
-            </p>
-          </div>
+        </p>
+      </div>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20reseña%20gratuita%20para%20mejorar%20mi%20reputación%20online%20en%20Google.%20¿Podrían%20ayudarme%20con%20más%20información%20sobre%20sus%20servicios?" target="_blank" rel="noopener noreferrer" className="glass-card p-8 rounded-xl text-center hover-elegant block">
