@@ -407,7 +407,7 @@ function App() {
       </section>
 
       {/* Precios Section */}
-      <section id="precios" className="py-20 bg-primary-dark">
+      <section id="precios" className="py-0 bg-primary-dark">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-headline mb-4">Nuestros Planes</h2>
@@ -424,8 +424,8 @@ function App() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-headline mb-2">Pack Mini</h3>
-                <div className="text-4xl font-bold highlight mb-2">35€</div>
-                <p className="text-paragraph">10 reseñas</p>
+                <div className="text-4xl font-bold highlight mb-2">49,90€</div>
+                <p className="text-paragraph">10 Reseñas</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
@@ -471,7 +471,7 @@ function App() {
                   Garantía de 15 días después de que complete el pedido
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Mini de 10 reseñas por 35€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
+              <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Mini de 10 reseñas por 49,90€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
                 Seleccionar Pack Mini
               </a>
             </div>
@@ -488,8 +488,8 @@ function App() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-headline mb-2">Pack Pro</h3>
-                <div className="text-4xl font-bold highlight mb-2">75€</div>
-                <p className="text-paragraph">25 reseñas</p>
+                <div className="text-4xl font-bold highlight mb-2">112,25€</div>
+                <p className="text-paragraph">25 Reseñas</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
@@ -535,7 +535,7 @@ function App() {
                   Garantía de 15 días después de que complete el pedido
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Pro de 25 reseñas por 75€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
+              <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Pro de 25 reseñas por 112,25€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
                 Seleccionar Pack Pro
               </a>
             </div>
@@ -549,8 +549,8 @@ function App() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-headline mb-2">Pack Avanzado</h3>
-                <div className="text-4xl font-bold highlight mb-2">140€</div>
-                <p className="text-paragraph">50 reseñas</p>
+                <div className="text-4xl font-bold highlight mb-2">199,50€</div>
+                <p className="text-paragraph">50 Reseñas</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
@@ -596,7 +596,7 @@ function App() {
                   Garantía de 15 días después de que complete el pedido
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Avanzado de 50 reseñas por 140€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
+              <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Avanzado de 50 reseñas por 199,50€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
                 Seleccionar Pack Avanzado
               </a>
             </div>
@@ -610,8 +610,8 @@ function App() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-headline mb-2">Pack Premium</h3>
-                <div className="text-4xl font-bold highlight mb-2">275€</div>
-                <p className="text-paragraph">100 reseñas</p>
+                <div className="text-4xl font-bold highlight mb-2">349,00€</div>
+                <p className="text-paragraph">100 Reseñas</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
@@ -657,7 +657,7 @@ function App() {
                   Garantía de 15 días después de que complete el pedido
                 </li>
               </ul>
-              <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Premium de 100 reseñas por 275€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
+              <a href="https://wa.me/34632425771?text=Hola! Me interesa el Pack Premium de 100 reseñas por 349,00€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
                 Seleccionar Pack Premium
         </a>
       </div>
