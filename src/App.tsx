@@ -412,6 +412,7 @@ function App() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-headline mb-4">Nuestros Planes</h2>
             <p className="text-xl text-paragraph">Elige el plan perfecto para tu negocio</p>
+            <p className="text-lg text-paragraph mt-2 font-medium">Precios con IVA incluido</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
