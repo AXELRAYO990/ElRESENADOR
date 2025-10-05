@@ -276,19 +276,10 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
             <div className="space-y-8">
               <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
-                <h3 className="text-2xl font-bold text-headline mb-4">Nuestra Misión</h3>
-                <p className="text-lg text-paragraph leading-relaxed mb-4">
-                  Ayudamos a negocios locales a fortalecer su presencia digital mediante reseñas auténticas y verificadas que generan confianza y credibilidad.
+                <h3 className="text-2xl font-bold text-headline mb-6">Nosotros</h3>
+                <p className="text-lg text-paragraph leading-relaxed">
+                  En El Reseñador, nos especializamos en reseñas verificadas para negocios locales, asegurando que cada opinión sea genuina y de usuarios reales. Transformamos tu perfil de Google en una herramienta de ventas activa, con paquetes personalizados que incluyen palabras clave locales para mejorar tu SEO. Garantizamos resultados inmediatos y un aumento en tu facturación desde el primer día. Además, ofrecemos 100% confidencialidad y un enfoque especializado, asegurando que tu información esté segura. Elige El Reseñador para elevar tu presencia digital y convertir más visitas en ventas.
                 </p>
-               
-              </div>
-              
-              <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:scale-105 transition-all duration-300">
-                <h3 className="text-2xl font-bold text-headline mb-4">Nuestro Objetivo</h3>
-                <p className="text-lg text-paragraph leading-relaxed mb-4">
-                  Convertimos tu perfil de Google en una herramienta de ventas activa que atrae más visitas, genera más llamadas y aumenta tu facturación.
-                </p>
-                
               </div>
             </div>
             
