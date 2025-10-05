@@ -153,63 +153,86 @@ function App() {
 
                         {/* Hero Section */}
                   <section className="gradient-hero text-white pt-32 pb-20 pattern-bg">
-        <div className="container mx-auto px-6 text-center">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-headline">
-              Reseñas Verificadas
-              <span className="block highlight">que Transforman</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-paragraph mb-8 max-w-3xl mx-auto">
-              Mejora tu reputación online con reseñas auténticas
-            </p>
-                                    <div className="flex justify-center mb-12">
-                          <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20reseña%20gratuita%20para%20mejorar%20mi%20reputación%20online%20en%20Google.%20¿Podrían%20ayudarme%20con%20más%20información%20sobre%20sus%20servicios?" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center flex items-center justify-center">
-                          Reseña gratuita
-                          </a>
-                        </div>
-                        
-                        {/* Características destacadas */}
-                        <div className="max-w-4xl mx-auto">
-                          <div className="glass-card p-8 rounded-2xl hover-elegant transform hover:-translate-y-2 transition-all duration-300">
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                              <div className="flex flex-col items-center text-center space-y-4">
-                                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
-                                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-                                  </svg>
-                                </div>
-                                <div>
-                                  <h4 className="text-lg font-bold text-headline mb-2">Reseñas 100% verificadas</h4>
-                                  <p className="text-paragraph text-sm">Usuarios reales con cuentas activas</p>
-                                </div>
-                              </div>
-                              
-                              <div className="flex flex-col items-center text-center space-y-4">
-                                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
-                                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                                  </svg>
-                                </div>
-                                <div>
-                                  <h4 className="text-lg font-bold text-headline mb-2">Posicionamiento local</h4>
-                                  <p className="text-paragraph text-sm">Aparece más arriba en Google Maps</p>
-                                </div>
-                              </div>
-                              
-                              <div className="flex flex-col items-center text-center space-y-4">
-                                <div className="w-16 h-16 highlight-bg rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
-                                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                                  </svg>
-                                </div>
-                                <div>
-                                  <h4 className="text-lg font-bold text-headline mb-2">Contenido estratégico</h4>
-                                  <p className="text-paragraph text-sm">Palabras clave para mejorar tu SEO</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+        <div className="container mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Texto a la izquierda */}
+            <div className="text-center lg:text-left">
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 text-headline">
+                Reseñas Verificadas
+                <span className="block highlight">que Transforman</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-paragraph mb-8">
+                Mejora tu reputación online con reseñas auténticas
+              </p>
+              <div className="flex justify-center lg:justify-start">
+                <a href="https://wa.me/34632425771?text=Hola,%20me%20interesa%20una%20reseña%20gratuita%20para%20mejorar%20mi%20reputación%20online%20en%20Google.%20¿Podrían%20ayudarme%20con%20más%20información%20sobre%20sus%20servicios?" target="_blank" rel="noopener noreferrer" className="btn-elegant text-lg font-semibold text-center flex items-center justify-center">
+                Reseña gratuita
+                </a>
+              </div>
+            </div>
+            
+            {/* Características a la derecha */}
+            <div className="space-y-6">
+              <div className="flex items-center space-x-4">
+                <div className="w-14 h-14 highlight-bg rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-headline mb-1">Reseñas 100% verificadas</h4>
+                  <p className="text-paragraph">Usuarios reales con cuentas activas</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-4">
+                <div className="w-14 h-14 highlight-bg rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-headline mb-1">Posicionamiento local</h4>
+                  <p className="text-paragraph">Aparece más arriba en Google Maps</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-4">
+                <div className="w-14 h-14 highlight-bg rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-headline mb-1">Contenido estratégico</h4>
+                  <p className="text-paragraph">Palabras clave para mejorar tu SEO</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-4">
+                <div className="w-14 h-14 highlight-bg rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-headline mb-1">Resultados garantizados</h4>
+                  <p className="text-paragraph">Desde el primer día</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-4">
+                <div className="w-14 h-14 highlight-bg rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-headline mb-1">Soporte especializado</h4>
+                  <p className="text-paragraph">Acompañamiento personalizado</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
