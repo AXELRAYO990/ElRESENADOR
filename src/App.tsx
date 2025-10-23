@@ -469,7 +469,7 @@ function App() {
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Garantía de 15 días después de que complete el pedido
+                  <span className="font-bold text-highlight">ENTREGA EN MÁXIMO 2-14 DÍAS</span>
                 </li>
               </ul>
               <a href="https://wa.me/34631902474?text=Hola! Me interesa el Pack Mini de 10 reseñas por 49,99€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
@@ -533,7 +533,7 @@ function App() {
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Garantía de 15 días después de que complete el pedido
+                  <span className="font-bold text-highlight">ENTREGA EN MÁXIMO 2-14 DÍAS</span>
                 </li>
               </ul>
               <a href="https://wa.me/34631902474?text=Hola! Me interesa el Pack Pro de 25 reseñas por 112,99€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
@@ -594,7 +594,7 @@ function App() {
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Garantía de 15 días después de que complete el pedido
+                  <span className="font-bold text-highlight">ENTREGA EN MÁXIMO 2-14 DÍAS</span>
                 </li>
               </ul>
               <a href="https://wa.me/34631902474?text=Hola! Me interesa el Pack Avanzado de 50 reseñas por 199,99€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
@@ -655,7 +655,7 @@ function App() {
                   <svg className="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Garantía de 15 días después de que complete el pedido
+                  <span className="font-bold text-highlight">ENTREGA EN MÁXIMO 2-14 DÍAS</span>
                 </li>
               </ul>
               <a href="https://wa.me/34631902474?text=Hola! Me interesa el Pack Premium de 100 reseñas por 349,99€. ¿Podrías darme más información?" className="btn-elegant w-full text-center block">
@@ -897,7 +897,7 @@ function App() {
                   <svg className="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
                   </svg>
-                  +34 632 42 57 71
+                  +34 631 90 24 74
                 </li>
                 
               </ul>
@@ -908,6 +908,7 @@ function App() {
           
           <div className="border-t border-subtle mt-8 pt-8 text-center text-paragraph">
             <p className="mb-4">&copy; 2023 EL RESEÑADOR. Todos los derechos reservados.</p>
+            <p className="mb-4 text-sm text-paragraph">Al comprar cualquier servicio nuestro, aceptas nuestros términos y condiciones.</p>
             
             {/* Documentos Legales */}
             <div className="flex flex-wrap justify-center gap-4 text-sm">
