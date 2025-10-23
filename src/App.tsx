@@ -835,7 +835,7 @@ function App() {
               <h3 className="text-xl font-bold text-headline mb-4">WhatsApp</h3>
               <p className="text-paragraph mb-4">Chatea con nosotros</p>
               <span className="text-success hover:text-headline transition-colors font-semibold">
-                +34 632 42 57 71
+                +34 631 90 24 74
               </span>
             </a>
             
@@ -913,7 +913,7 @@ function App() {
             {/* Documentos Legales */}
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <a 
-                href="/POLÍTICADEPRIVACIDAD.pdf" 
+                href="/politica.pdf" 
                 download="Politica_Privacidad_EL_RESENADOR.pdf"
                 className="hover:text-headline transition-colors flex items-center"
               >
@@ -924,7 +924,7 @@ function App() {
               </a>
               
               <a 
-                href="/AVISOLEGAL.pdf" 
+                href="/avisolegal.pdf" 
                 download="Aviso_Legal_EL_RESENADOR.pdf"
                 className="hover:text-headline transition-colors flex items-center"
               >
@@ -935,7 +935,7 @@ function App() {
               </a>
               
               <a 
-                href="/ TÉRMINOSyCONDICIONES.pdf" 
+                href="/terminos.pdf" 
                 download="Terminos_Condiciones_EL_RESENADOR.pdf"
                 className="hover:text-headline transition-colors flex items-center"
               >
